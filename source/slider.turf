@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/slider.css">
+	<!-- <link rel="stylesheet" href="../css/style.css"> -->
+	<link rel="stylesheet" href="../css/main.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<title>Document</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="container block">
+			<h1>ПРОМЫШЛЕННАЯ СЪЕМКА</h1>
+			<div class="slider">
+				<div class="slider-line">
+					<img src="../img/menu__background.png" alt="">
+					<img src="../img/menu__background1.png" alt="">
+					<img src="../img/menu__background2.png" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="arrows">
+			<button class="slider__prev"> <img src="../img/arr_left.png" alt=""></button>
+			<button class="slider__next"><img src="../img/arr_right.png" alt=""></button>
+		</div>
+		<!-- </div> -->
+
+		<!-- </div> -->
+
+		<script src="main.js"></script>
+
+</body>
+
+</html>
