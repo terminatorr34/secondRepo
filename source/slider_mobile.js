@@ -1,3 +1,4 @@
+// слайдер для мобильной версии
 
 const matchMedia2 = window.matchMedia('(max-width:479px)')
 if (matchMedia2.matches) {
@@ -181,19 +182,6 @@ window.addEventListener('resize', init1)
 window.addEventListener('resize', init1)
 }
 
-
-// pushButton = () =>{
-//     console.log('работа')
-// }
-// console.log(document.querySelectorAll('.slider-button1'))
-// const buttons = document.querySelectorAll('.slider-button1')
-
-// buttons.forEach((dot, index) => {
-//     dot.addEventListener('click', () =>{
-//         sliderLine1.style.transform = 'translate(-' + count1 * index + 'px)';
-
-//     })
-// });
 
 
 

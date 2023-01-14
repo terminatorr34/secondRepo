@@ -1,3 +1,4 @@
+// слайдер для десктопной версии, для стрелочек, под основным банером
 const images = document.querySelectorAll('.slider .slider-line img');
 const sliderline = document.querySelector('.slider-line');
 
@@ -48,6 +49,7 @@ document.querySelector('.slider__prev').addEventListener('click', function () {
 // функция запускает обе кнопки
 
 
+// валидаця формы 
 
 const mainForm = document.forms.mainForm;
 let userPhoto = mainForm.elements.photo;
@@ -59,11 +61,11 @@ const userCheckbox = mainForm.elements.inputCheckbox;
 const inputCheckbox = mainForm.inputCheckbox;
 const userNamePlaceholder = userName.placeholder;
 
-//валдиция полей текст текстареа, - офкус и блюр
+//валидация полей текст текстареа, - офкус и блюр
 
 userName.addEventListener("focus", function (e) {
     userName.placeholder = '';
-})  // при наведении focus мы полуваем пустую строку в поле ввода
+})  // при наведении focus мы получаем пустую строку в поле ввода
 
 userName.addEventListener("blur", function (e) {
     userName.placeholder = userNamePlaceholder;
@@ -117,10 +119,10 @@ function validation(form) {
     const mainForm = document.forms.mainForm;
 
     const allInputs = form.querySelectorAll('.want__form-item'); //проходим по нашей форме т.к. form = this = documents.forms.mainForm и каждый найденный класс . want__form-item выводим в консоль. 
-    // та же скамая запись при помощи foreach:  form.querySelectorAll('.want__form-item').foreach(input = >{console.log(input)})    
+    // та же самая запись при помощи foreach:  form.querySelectorAll('.want__form-item').foreach(input = >{console.log(input)})    
     // console.log(userPhoto.value)
 
-    allInputsUs = mainForm.elements.photo; // перебираем всем поля с менем фото
+    allInputsUs = mainForm.elements.photo; // перебираем всем поля с именем фото
     for (const inputUs of allInputsUs)
         if (inputUs.value == '' && inputUs.placeholder == 'фото') {
             alert('загрузите фото')
@@ -168,7 +170,7 @@ document.forms.mainForm.addEventListener('submit', function (event) {
 window.addEventListener('resize', deleteBr);
 }
 
-
+// делаем бургер
 
 const headerBurger = document.querySelector('.header__burger');
 const headerMenu = document.querySelector('.header__menu');
