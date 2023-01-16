@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/service.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <title>Service</title>
+</head>
+
+<body>
+    <div class="container"> <!--контейнер 1920px -->
+        <header class="container header__container">
+            <div class="header__left">
+                <div class="header__logo"> <a href="index.html"><img src="../img/logo.png" class="logo" alt="logo"
+                            link="index.html"></a>
+
+                    <img src="../img/slogan.png" class="slogan" alt="">
+                </div>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <div class="header__menu">
+                    <a href="#" class="header__menu-item">проекты</a>
+                    <a href="#" class="header__menu-item">услуги</a>
+                    <a href="#" class="header__menu-item">о студии</a>
+                    <a href="#" class="header__menu-item">связь</a>
+                </div>
+
+            </div>
+            <div class="header__right">
+                <div class="header__contacts">
+                    <div class="header__contacts-mail">mail@lineartworks.ru</div>
+                    <div class="header__contacts-city">
+                        <div class="city">8 (812) 309-36-57 <span>спб</span></div>
+                        <div class="city">8 (495) 481-22-57 <span>мск</span></div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <div class="container wrapper">
+            <div class="service-menu-container">
+
+                <div class="service-menu-items">
+                    <div class="menu-item">
+                        <img src="../img/service_menu/1.png" alt="">
+                        <div class="menu-items-h3"><h3>ФОТОСЪЕМКА</h3></div>
+                        <div class="rectangle"><img src="../img/service_menu/rectangle.png" alt=""></div>
+                        <h4>мы выполняем</h4>
+                    </div>
+                </div>
+                <div class="service-menu-items">
+                    <div class="menu-item">
+                        <img src="../img/service_menu/2.png" alt="">
+                        <div class="menu-items-h3"><h3>ДИЗАЙН И ИЛЛЮСТРАЦИИ</h3></div>
+                        <div class="rectangle"><img src="../img/service_menu/rectangle.png" alt=""></div>
+                        <h4>мы выполняем</h4>
+                    </div>
+                </div>
+                <div class="service-menu-items">
+                    <div class="menu-item">
+                        <img src="../img/service_menu/3.png" alt="">
+                        <div class="menu-items-h3"><h3>ВИДЕОСЪЕМКА</h3></div>
+                        <div class="rectangle"><img src="../img/service_menu/rectangle.png" alt=""></div>>
+                        <h4>мы выполняем</h4>
+                    </div>
+                </div>
+                <div class="service-menu-items">
+                    <div class="menu-item">
+                        <img src="../img/service_menu/4.png" alt="">
+                        <div class="menu-items-h3"><h3>ДОПОЛНЕННАЯ РЕАЛЬНОСТЬ</h3></div>
+                        <div class="rectangle"><img src="../img/service_menu/rectangle.png" alt=""></div>
+                        <h4>мы выполняем</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__logos">
+            <img src="../img/logo.png" class="logo" alt="logo">
+            <img src="../img/slogan.png" class="slogan" alt="">
+        </div>
+        <div class="footer__menu">
+            <a href="#" class="footer__menu-item">проекты</a>
+            <a href="#" class="footer__menu-item">услуги</a>
+            <a href="#" class="footer__menu-item">о студии</a>
+            <a href="#" class="footer__menu-item">связь</a>
+        </div>
+        <div class="footer__socials">
+            <a href="#"><img src="..//img/Icons/fb.png" alt=""></a>
+            <a href="#"><img src="..//img/Icons/vk.png" alt=""></a>
+            <a href="#"><img src="..//img/Icons/youtube.png" alt=""></a>
+            <a href="#"><img src="..//img/Icons/inst.png" alt=""></a>
+        </div>
+        <div class="footer__rights">
+            <h5>
+                LINE ARTWORKS, 2013-2021</h5> <br> <span>Сайт разработан и продвигается в iSPi</span>
+        </div>
+        </footer>
+
+    </div>
+
+    </div>
+    </div>
+    <!-- <script src="main.js"></script>
+    <script src="slider_mobile.js"></script> -->
+
+    <!-- <script src="deleteN.js"></script> -->
+    <!-- <script src="form.js"></script> -->
+</body>
+
+</html>
