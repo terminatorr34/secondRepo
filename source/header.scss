@@ -230,6 +230,7 @@
     }
 
     .header__burger {
+        display: none;
         margin-left: 50px;
         width: 30px;
         height: 20px;
@@ -279,7 +280,7 @@
     }
 
     .header__menu {
-        background-color: aquamarine;
+        // background-color: aquamarine;
         // position: fixed;
         z-index: 21;
         margin: 0 0 0 21px;
