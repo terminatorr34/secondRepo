@@ -48,7 +48,9 @@
 
     position: relative;
     display: flex;
-
+    max-height: 100%;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .menu-items-h3 {
@@ -73,7 +75,10 @@
     // flex: 1 0 0;
 }
 
-.menu-item .rectangle {
+.menu-item .rectangle1,
+.menu-item .rectangle2,
+.menu-item .rectangle3,
+.menu-item .rectangle4 {
     // height: 100%;
     // max-width: 100%;
     // flex: 1 0 0;
@@ -82,73 +87,142 @@
     left: 87%;
     width: 100%;
     height: 100%;
-
+    transition: all 0.3s ease-in;
 
 }
 
-.menu-items-column {
+.menu-item .rectangle1.active,
+.menu-item .rectangle2.active,
+.menu-item .rectangle3.active,
+.menu-item .rectangle4.active {
+    opacity: 0%;
+    transition: all 0.3s ease-in;
+}
+
+.menu-items-column1,
+.menu-items-column2,
+.menu-items-column3,
+.menu-items-column4 {
     position: absolute;
-    display: flex;
-    // align-items: flex-end;
-    justify-content: end;
+    transition: all 0.3s ease-in;
+  
     z-index: 2;
-    // left:87%;
+    left: 64%;
+    top: -5%;
     width: 100%;
     height: 100%;
+text-align: center;
+justify-self: center;
 
-    // background-color: rgb(79, 201, 130);
-    // opacity: 30%;
-    h4 {
-        // position: absolute;
-        transform: rotate(270deg);
-        z-index: 2;
-        text-align: center;
-        padding: 80px 0px 0 0;
-        // margin: 0px 100px 110px 0;
-        // height: 100%;
-        // max-width: 100%;
-        flex: 0 0 auto;
-        height: 40%;
-        align-self: center;
-        @include fontsize_weight_color(18px, 500, rgba(255, 255, 255, 1));
-    }
+padding: 0px 0 0 0;
+    transform: rotate(270deg);
+    z-index: 2;
+    // text-align: center;
+    // padding: 120px 0px 0 0;
+
+    flex: 0 0 216px;
+    
+    // align-self: center;
+    @include fontsize_weight_color(24px, 500, rgba(255, 255, 255, 1));
+
 }
 
-// top: 42%;
-// Left: 84%;
-// 
+.menu-items-column1.active,
+.menu-items-column2.active,
+.menu-items-column3.active,
+.menu-items-column4.active {
+    z-index: 3;
+    left: 27%;
+    top: -5%;
+    transition: all 0.3s ease-in;
+}
 
+.menu-item-plus {
+    position: absolute;
+    left: 91.5%;
+    top: 82%;
+    z-index: 2;
+    width: 35px;
+    height: 35px;
+    // background-color: aquamarine;
+    // opacity: 30%;
+    transition: all 0.3s ease-in;
+}
 
+.menu-item-plus:before,
+.menu-item-plus:after {
+    content: "";
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 30px;
+    height: 2px;
+    transition: all 0.3s ease-in;
+}
 
-// .menu-item h3 {
-//     font-size: 26px;
-//     font-weight: 700;
-//     position: absolute;
-//     text-align: center;
-// top: 45%;
-// left: calc(960 / 2 - 182 / 2)/ 960 * 100%;
-//     color: aliceblue;
-//     z-index: 1;
+.menu-item-plus:before {
+    // top: 85%;
+    // left: 91.5%;
+}
 
-// }
+.menu-item-plus:after {
+    // top: 85%;
+    // left: 91.5%;
+    transform: rotate(90deg);
+    transition: all 0.3s ease-in;
+}
 
+.menu-item-popup1.active {
+    position: absolute;
+    left: 50%;
+    z-index: 2;
+    // background-color: aqua;
+    height: 100%;
+    width: 50%;
+    opacity: 100%;
+    transition: all 0.3s ease-in;
+}
 
-// .menu-item h4 {
-//     font-size: 30px;
-//     position: absolute;
-//     
-//     color: aliceblue;
+.menu-item-popup1 {
+    position: absolute;
+    left: 99%;
+    z-index: 4;
+    // background-color: aqua;
+    height: 100%;
+    width: 50%;
+    transition: all 0.3s ease-in;
+}
 
-// }
+.menu-item-plus.active {
+    position: absolute;
+    left: 56%;
+    top: 82%;
+    z-index: 3;
+    width: 35px;
+    height: 35px;
+    transition: all 0.3s ease-in;
+}
 
-// left:10px;
-// z-index: 1;
-// position:relative;
+.menu-item-plus.active:before,
+.menu-item-plus.active:after {
+    content: "";
+    position: absolute;
+    background-color: #FFFFFF;
+    ;
+    width: 15px;
+    height: 2px;
+    transition: all 0.3s ease-in;
+}
 
+.menu-item-plus.active:before {
+    transform: rotate(45deg);
+    top: 22%;
+    left: -23%;
+    transition: all 0.3s ease-in;
+}
 
-// .left-menu-items::before {
-//     content: url(../img/service_menu/rectangle.png);
-// left:836px;
-// top:-446px;
-//     position:relative;
-// }
+.menu-item-plus.active:after {
+    transform: rotate(-45deg);
+    top: 48%;
+    left: -23%;
+    transition: all 0.3s ease-in;
+}

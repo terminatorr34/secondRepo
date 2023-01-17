@@ -170,7 +170,7 @@ document.forms.mainForm.addEventListener('submit', function (event) {
 window.addEventListener('resize', deleteBr);
 }
 
-// делаем бургер
+//  бургер
 
 const headerBurger = document.querySelector('.header__burger');
 const headerMenu = document.querySelector('.header__menu');
