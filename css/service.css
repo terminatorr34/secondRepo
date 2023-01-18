@@ -1,3 +1,9 @@
+@font-face {
+  src: url(../font/UniSans-Trial-Bold.otf);
+  src: url(../font/UniSans-Trial-Regulas.otf);
+  src: url(../font/UniSans-Trial-SemiBold.otf);
+  font-family: "UniSans-Trial";
+}
 .wrapper {
   width: 1920px;
   height: 992px;
@@ -138,7 +144,10 @@
   transition: all 0.3s ease-in;
 }
 
-.menu-item-plus {
+.menu-item-plus1,
+.menu-item-plus2,
+.menu-item-plus3,
+.menu-item-plus4 {
   position: absolute;
   left: 91.5%;
   top: 82%;
@@ -149,8 +158,14 @@
   transition: all 0.3s ease-in;
 }
 
-.menu-item-plus:before,
-.menu-item-plus:after {
+.menu-item-plus1:before,
+.menu-item-plus2:before,
+.menu-item-plus3:before,
+.menu-item-plus4:before,
+.menu-item-plus1:after,
+.menu-item-plus2:after,
+.menu-item-plus3:after,
+.menu-item-plus4:after {
   content: "";
   position: absolute;
   background-color: #FFFFFF;
@@ -160,25 +175,33 @@
   transition: all 0.3s ease-in;
 }
 
-.menu-item-plus:after {
+.menu-item-plus1:after,
+.menu-item-plus2:after,
+.menu-item-plus3:after,
+.menu-item-plus4:after {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
 }
 
-.menu-item-popup1.active {
+.menu-item-popup1.active,
+.menu-item-popup2.active,
+.menu-item-popup3.active,
+.menu-item-popup4.active {
   position: absolute;
   left: 50%;
   z-index: 2;
   height: 100%;
   width: 50%;
-  opacity: 100%;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
 }
 
-.menu-item-popup1 {
+.menu-item-popup1,
+.menu-item-popup2,
+.menu-item-popup3,
+.menu-item-popup4 {
   position: absolute;
   left: 99%;
   z-index: 4;
@@ -188,7 +211,10 @@
   transition: all 0.3s ease-in;
 }
 
-.menu-item-plus.active {
+.menu-item-plus1.active,
+.menu-item-plus2.active,
+.menu-item-plus3.active,
+.menu-item-plus4.active {
   position: absolute;
   left: 56%;
   top: 82%;
@@ -199,8 +225,14 @@
   transition: all 0.3s ease-in;
 }
 
-.menu-item-plus.active:before,
-.menu-item-plus.active:after {
+.menu-item-plus1.active:before,
+.menu-item-plus2.active:before,
+.menu-item-plus3.active:before,
+.menu-item-plus4.active:before,
+.menu-item-plus1.active:after,
+.menu-item-plus2.active:after,
+.menu-item-plus3.active:after,
+.menu-item-plus4.active:after {
   content: "";
   position: absolute;
   background-color: #FFFFFF;
@@ -210,7 +242,10 @@
   transition: all 0.3s ease-in;
 }
 
-.menu-item-plus.active:before {
+.menu-item-plus1.active:before,
+.menu-item-plus2.active:before,
+.menu-item-plus3.active:before,
+.menu-item-plus4.active:before {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   top: 22%;
@@ -219,11 +254,61 @@
   transition: all 0.3s ease-in;
 }
 
-.menu-item-plus.active:after {
+.menu-item-plus1.active:after,
+.menu-item-plus2.active:after,
+.menu-item-plus3.active:after,
+.menu-item-plus4.active:after {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   top: 48%;
   left: -23%;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
+}
+
+.menu-item-text1, .menu-item-text2, .menu-item-text3, .menu-item-text4 {
+  position: absolute;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  z-index: 1;
+  left: 100%;
+  top: 0%;
+  width: 30%;
+  height: 100%;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.menu-item-text1 ul, .menu-item-text2 ul, .menu-item-text3 ul, .menu-item-text4 ul {
+  font-family: "UniSans-Trial";
+  font-style: regular;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.menu-item-text1 ul li, .menu-item-text2 ul li, .menu-item-text3 ul li, .menu-item-text4 ul li {
+  padding-bottom: 34px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.menu-item-text1 ul li:last-child, .menu-item-text2 ul li:last-child, .menu-item-text3 ul li:last-child, .menu-item-text4 ul li:last-child {
+  padding-bottom: 0;
+}
+
+.menu-item-text1.active, .menu-item-text2.active, .menu-item-text3.active, .menu-item-text4.active {
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  z-index: 3;
+  left: 60%;
+  top: 0%;
 }
