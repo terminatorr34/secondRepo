@@ -43,7 +43,7 @@
 
         </header>
 
-        <div class="container wrapper">
+        <div class="container">
             <div class="service-menu-container">
 
                 <div class="service-menu-items">
@@ -148,6 +148,83 @@
 
                             </ul>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contaner container-service-body">
+            <div class="service-body-items">
+                <div class="service-body-item">
+                    <div class="body-item-left">
+                        <div>
+                            <h2>ФОТОСЪЕМКА</h2><span>Уже 5 лет студия Line Artworks организует и проводит промышленные,
+                                рекламные и имиджевые фотосессии. Мы готовы полностью взять на себя подготовку и
+                                реализацию
+                                проекта — от концепции и подбора моделей до дизайна готовых рекламных и полиграфических
+                                материалов.</span> <br> <span>
+                                В нашем портфолио фотосъемки для Газпрома, Северстали, аэропортов Пулково и Шереметьево,
+                                Роскосмоса и ОКБ «Сухой».</span>
+                        </div>
+                        <h3 class="h3title">МЫ ВЫПОЛНЯЕМ</h3>
+                        <div class="body-left-table">
+
+                            <div class="body-left-table-item">
+                                <ul>ПРОМЫШЛЕННАЯ СЪЕМКА
+                                    <li>Фотосъемка заводов</li>
+                                    <li>Фотосъемка предприятий и производств </li>
+                                    <li>Фотосъемка продукции и сырья</li>
+                                </ul>
+                                
+                            </div>
+                            <div class="body-left-table-item">
+                                <ul>РЕКЛАМНАЯ ФОТОСЪЕМКА
+                                    <li>Изготовление плакатов</li>
+
+                                </ul>
+                            </div>
+                            <div class="body-left-table-item">
+                                <ul>ИМИДЖЕВАЯ СЪЕМКА
+                                    <li>Имиджевые календари
+
+                                    </li>
+                                    <li>Корпоративный календарь
+                                    </li>
+                                    <li>Бизнес-портреты</li>
+                                </ul>
+                            </div>
+                            <div class="body-left-table-item">
+                                <ul>АЭРОСЪЕМКА СЪЕМКА
+                                    <li>Аэросъемка строительства
+                                    </li>
+                                    <li>Аэросъемка города</li>
+                                </ul>
+                            </div>
+                            <div class="body-left-table-item">
+                                <ul>КОРПОРАТИВНАЯ СЪЕМКА
+                                    <li>Корпоративная фотосъемка
+                                    </li>
+                                    <li>Корпоративная видеосъемка
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="body-left-table-item">
+                                <ul>ИМИДЖЕВАЯ СЪЕМКА
+                                    <li>Имиджевые календари
+
+                                    </li>
+                                    <li>Корпоративный календарь
+                                    </li>
+                                    <li>Бизнес-портреты</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="body-item-right">
+                        <div class="picAside"><img src="../img/service_body/1.png" alt=""></div>
+                        <div class="picPlay"><img src="../img/service_body/play.png" alt=""></div>
                     </div>
                 </div>
             </div>

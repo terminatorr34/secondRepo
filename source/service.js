@@ -55,3 +55,29 @@ plus4.addEventListener('click', function (event) {
     menuText4.classList.toggle('active')
     
 })
+
+
+// ховер на картинки услуг блюрит весь див, а нужно блюрить только фон, исправляю это добавлением класса
+
+let tableBody = document.querySelectorAll(".body-left-table-item");
+console.log(tableBody);
+tableBody[0].addEventListener('mouseover', addClass, false);
+
+function addClass() {
+    tableBody[0].classList.add('table-active')
+}
+
+// item.addEventListener("mouseover", func, false);
+// item.addEventListener("mouseout", func1, false);
+
+// function func()
+// {  // not needed since item is already global, 
+//    // I am assuming this is here just because it's sample code?
+//    // var item = document.getElementById("button"); 
+//    item.setAttribute("style", "background-color:blue;")
+// }
+
+// function func1()
+// {  
+//    item.setAttribute("style", "background-color:green;")
+// }
