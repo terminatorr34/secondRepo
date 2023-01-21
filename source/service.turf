@@ -175,7 +175,7 @@
                                     <li>Фотосъемка предприятий и производств </li>
                                     <li>Фотосъемка продукции и сырья</li>
                                 </ul>
-                                
+
                             </div>
                             <div class="body-left-table-item">
                                 <ul>РЕКЛАМНАЯ ФОТОСЪЕМКА
@@ -206,7 +206,7 @@
                                     </li>
                                     <li>Корпоративная видеосъемка
                                     </li>
-                                    
+
                                 </ul>
                             </div>
                             <div class="body-left-table-item">
@@ -224,9 +224,175 @@
                     </div>
                     <div class="body-item-right">
                         <div class="picAside"><img src="../img/service_body/1.png" alt=""></div>
-                        <div class="picPlay"><img src="../img/service_body/play.png" alt=""></div>
+                        <div class="picPlay"><a href="https://www.youtube.com/watch?v=lq9oYLO-0S0"><img src="../img/service_body/play.png" alt=""></a></div>
                     </div>
                 </div>
+                <div class="service-body-item">
+                    <div class="body-item-left">
+                        <div>
+                            <h2>ВИДЕОСЪЕМКА</h2><span>Команда Line Artworks снимает все виды видеороликов —
+                                презентационные, рекламные и корпоративные. В нашем штате собраны режиссеры и
+                                сценаристы, видеооператоры и монтажеры, специалисты по графике и звуку. Для озвучивания
+                                видео мы приглашаем профессиональных дикторов.</span> <br> <span>
+                                В портфолио студии работы аэропорта Пулково, Западного Скоростного Диаметра и
+                                Петербургского тракторного завода.</span>
+                        </div>
+                        <h3 class="h3title">МЫ ВЫПОЛНЯЕМ</h3>
+                        <div class="body-left-table">
+
+                            <div class="body-left-table-item">
+                                <ul>КОРПОРАТИВНЫЕ ФИЛЬМЫ И ПРЕЗЕНТАЦИИ
+                                    <li>Корпоративные фильмы</li>
+                                </ul>
+
+                            </div>
+                            <div class="body-left-table-item">
+                                <ul>РЕКЛАМНЫЕ РОЛИКИ
+                                    <li>Рекламные ролики</li>
+                                    <li>Съемка промо роликов</li>
+
+                                </ul>
+                            </div>
+                            <div class="body-left-table-item">
+                                <ul>ИМИДЖЕВАЯ СЪЕМКА
+                                </ul>
+                            </div>
+                            <div class="body-left-table-item">
+                                <ul>АЭРОСЪЕМКА
+                                    <li>Аэросъемка города
+                                    </li>
+                                    <li>Аэросъемка строительства</li>
+                                    <li>Аэросъемка недвижимости</li>
+                                </ul>
+                            </div>
+                            <div class="body-left-table-item">
+                                <ul>ПРОМЫШЛЕННАЯ СЪЕМКА
+                                    <li>Съемка рабочих и сотрудников на производстве
+                                    </li>
+                                    <li>Съемка продукции и ее элементов
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="body-left-table-item">
+                                <ul>СЪЕМКА ТРАНСПОРТА
+
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="body-item-right">
+                        <div class="picAside"><img src="../img/service_body/2.png" alt=""></div>
+                        <div class="picPlay"><a href=""><img src="../img/service_body/play.png" alt=""></a></div>
+                    </div>
+                </div>
+                <div class="service-body-item">
+                    <div class="body-item-left">
+                        <div>
+                            <h2>ДИЗАЙН И ИЛЛЮСТРАЦИИ</h2><span>В Line Artworks работают дизайнеры и иллюстраторы,
+                                которые возьмутся за проект любой сложности: от разработки фирменного стиля и дизайна
+                                корпоративной полиграфии до создания красочных рекламных и имиджевых иллюстраций.
+                            </span> <br> <span>
+                                Мы выполняли проекты по дизайну и создавали иллюстрации для Северстали, Челябинского
+                                трубопрокатного завода (ЧТПЗ), Татспиртпрома и молочного бренда «Лосево».</span>
+                        </div>
+                        <h3 class="h3title">МЫ ВЫПОЛНЯЕМ</h3>
+                        <div class="body-left-table">
+
+                            <div class="body-left-table-item">
+                                <ul>ФИРМЕННЫЙ СТИЛЬ И ЛОГОТИПЫ
+                                    <li>Разработка фирменного стиля</li>
+                                    <li>Разработка логотипа</li>
+                                </ul>
+
+                            </div>
+                            <div class="body-left-table-item">
+                                <ul>ДИЗАЙН ПОЛИГРАФИИ
+                                    <li>Имиджевые календари
+                                    </li>
+                                    <li>Корпоративный календарь</li>
+                                    <li>Разработка буклета</li>
+                                    <li>Дизайн афиши мероприятия</li>
+                                    <li>Разработка брендбука</li>
+                                    <li>Разработка и дизайн постеров</li>
+                                    <li>Корпоративные открытки</li>
+
+                                </ul>
+                            </div>
+                            <div class="body-left-table-item">
+                                <ul>РЕКЛАМНЫЙ ДИЗАЙН
+                                    <li>Дизайн рекламных плакатов </lI>
+                                    <li>Дизайн рекламной продукции</li>
+                                    <li>Дизайн рекламных листовок</li>
+                                    <li>Дизайн рекламных буклетов </li>
+                                    <li>Дизайн рекламных роликов </li>
+                                </ul>
+                            </div>
+                            <div class="body-left-table-item">
+                                <ul>КАЛЕНДАРИ
+
+                                </ul>
+                            </div>
+                            <div class="body-left-table-item">
+                                <ul>КОРПОРАТИВНЫЕ ОТКРЫТКИ
+                                </ul>
+                            </div>
+                            <div class="body-left-table-item">
+                                <ul>ГРАФИЧЕСКИЕ ИЛЛЮСТРАЦИИ
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="body-item-right">
+                        <div class="picAside"><img src="../img/service_body/3.png" alt=""></div>
+                        <div class="picPlay"><a href=""><img src="../img/service_body/play.png" alt=""></a></div>
+                    </div>
+                </div>
+                <div class="service-body-item">
+                    <div class="body-item-left">
+                        <div>
+                            <h2>ДОПОЛНЕННАЯ РЕАЛЬНОСТЬ</h2><span>Дополненная реальность (AR) — это видеоролики,
+                                интерактивная графика или 3D модели в простых печатных или онлайн материалах. Чтобы
+                                увидеть интерактивную информацию, достаточно скачать специальное приложение и навести
+                                мобильный телефон на объект с AR-технологией — плакат, каталог, отчет, выставочный стенд
+                                или рекламный модуль.
+                        </div>
+                        <h3 class="h3title">МЫ ВЫПОЛНЯЕМ</h3>
+                        <div class="body-left-table">
+
+                            <div class="body-left-table-item">
+                                <ul>ВЫСТАВОЧНЫЕ СТЕНДЫ
+                                </ul>
+
+                            </div>
+                            <div class="body-left-table-item">
+                                <ul>МОБИЛЬНОЕ ПРИЛОЖЕНИЕ LOOK AT MORE!
+
+                                </ul>
+                            </div>
+                            <div class="body-left-table-item">
+                                <ul>КАЛЕНДАРИ
+                                </ul>
+                            </div>
+                            <div class="body-left-table-item left-item4">
+                                <ul>ПРОЕКТЫ-AR
+                                    <li>Дополненная реальность</li>
+                                    <li>Дизайн</li>
+                                    <li>Фото</li>
+                                    <li>Видео</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="body-item-right">
+                        <div class="picAside"><img src="../img/service_body/4.png" alt=""></div>
+                        <div class="picPlay"><a href=""><img src="../img/service_body/play.png" alt=""></a></div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
