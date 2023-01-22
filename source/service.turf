@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/service.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/service.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <title>Service</title>
 </head>
@@ -15,10 +15,10 @@
     <div class="container"> <!--контейнер 1920px -->
         <header class="container header__container">
             <div class="header__left">
-                <div class="header__logo"> <a href="index.html"><img src="../img/logo.png" class="logo" alt="logo"
+                <div class="header__logo"> <a href="index.html"><img src="/img/logo.png" class="logo" alt="logo"
                             link="index.html"></a>
 
-                    <img src="../img/slogan.png" class="slogan" alt="">
+                    <img src="/img/slogan.png" class="slogan" alt="">
                 </div>
                 <div class="header__burger">
                     <span></span>
@@ -48,15 +48,15 @@
 
                 <div class="service-menu-items">
                     <div class="menu-item">
-                        <img src="../img/service_menu/1.png" alt="">
+                        <img src="/img/service_menu/1.png" alt="">
                         <div class="menu-items-h3">
                             <h3>ФОТОСЪЕМКА</h3>
                         </div>
-                        <div class="rectangle1"><img src="../img/service_menu/rectangle.png" alt=""></div>
+                        <div class="rectangle1"><img src="/img/service_menu/rectangle.png" alt=""></div>
                         <div class="menu-items-column1">мы выполняем</div>
                         <div class="menu-item-plus1"></div>
                         <!-- <div class="menu-item-semiplus"></div> -->
-                        <div class="menu-item-popup1"><img src="../img/service_menu/rectangle_menu.png" alt=""></div>
+                        <div class="menu-item-popup1"><img src="/img/service_menu/rectangle_menu.png" alt=""></div>
                         <div class="menu-item-text1">
                             <ul>
                                 <li>ПРОМЫШЛЕННАЯ СЪЕМКА</li>
@@ -71,16 +71,16 @@
                 </div>
                 <div class="service-menu-items">
                     <div class="menu-item">
-                        <img src="../img/service_menu/2.png" alt="">
+                        <img src="/img/service_menu/2.png" alt="">
                         <div class="menu-items-h3">
                             <h3>ДИЗАЙН И ИЛЛЮСТРАЦИИ</h3>
                         </div>
-                        <div class="rectangle2"><img src="../img/service_menu/rectangle.png" alt=""></div>
+                        <div class="rectangle2"><img src="/img/service_menu/rectangle.png" alt=""></div>
                         <div class="menu-items-column2">
                             <h4>мы выполняем</h4>
                         </div>
                         <div class="menu-item-plus2"><span></span></div>
-                        <div class="menu-item-popup2"><img src="../img/service_menu/rectangle_menu.png" alt=""></div>
+                        <div class="menu-item-popup2"><img src="/img/service_menu/rectangle_menu.png" alt=""></div>
                         <div class="menu-item-text2">
                             <ul>
                                 <li>КОРПОРАТИВНЫЕ ФИЛЬМЫ И ПРЕЗЕНТАЦИИ</li>
@@ -96,16 +96,16 @@
                 </div>
                 <div class="service-menu-items">
                     <div class="menu-item">
-                        <img src="../img/service_menu/3.png" alt="">
+                        <img src="/img/service_menu/3.png" alt="">
                         <div class="menu-items-h3">
                             <h3>ВИДЕОСЪЕМКА</h3>
                         </div>
-                        <div class="rectangle3"><img src="../img/service_menu/rectangle.png" alt=""></div>>
+                        <div class="rectangle3"><img src="/img/service_menu/rectangle.png" alt=""></div>>
                         <div class="menu-items-column3">
                             <h4>мы выполняем</h4>
                         </div>
                         <div class="menu-item-plus3"><span></span></div>
-                        <div class="menu-item-popup3"><img src="../img/service_menu/rectangle_menu.png" alt=""></div>
+                        <div class="menu-item-popup3"><img src="/img/service_menu/rectangle_menu.png" alt=""></div>
                         <div class="menu-item-text3">
                             <ul>
                                 <li>Фирменный стиль и логотипы
@@ -125,16 +125,16 @@
                 </div>
                 <div class="service-menu-items">
                     <div class="menu-item">
-                        <img src="../img/service_menu/4.png" alt="">
+                        <img src="/img/service_menu/4.png" alt="">
                         <div class="menu-items-h3">
                             <h3>ДОПОЛНЕННАЯ РЕАЛЬНОСТЬ</h3>
                         </div>
-                        <div class="rectangle4"><img src="../img/service_menu/rectangle.png" alt=""></div>
+                        <div class="rectangle4"><img src="/img/service_menu/rectangle.png" alt=""></div>
                         <div class="menu-items-column4">
                             <h4>мы выполняем</h4>
                         </div>
                         <div class="menu-item-plus4"><span></span></div>
-                        <div class="menu-item-popup4"><img src="../img/service_menu/rectangle_menu.png" alt=""></div>
+                        <div class="menu-item-popup4"><img src="/img/service_menu/rectangle_menu.png" alt=""></div>
                         <div class="menu-item-text4">
                             <ul>
                                 <li>ВЫСТАВОЧНЫЕ СТЕНДЫ
@@ -223,8 +223,8 @@
 
                     </div>
                     <div class="body-item-right">
-                        <div class="picAside"><img src="../img/service_body/1.png" alt=""></div>
-                        <div class="picPlay"><a href="https://www.youtube.com/watch?v=lq9oYLO-0S0"><img src="../img/service_body/play.png" alt=""></a></div>
+                        <div class="picAside"><img src="/img/service_body/1.png" alt=""></div>
+                        <div class="picPlay"><a href=""><img src="/img/service_body/play.png" alt=""></a></div>
                     </div>
                 </div>
                 <div class="service-body-item">
@@ -283,8 +283,8 @@
 
                     </div>
                     <div class="body-item-right">
-                        <div class="picAside"><img src="../img/service_body/2.png" alt=""></div>
-                        <div class="picPlay"><a href=""><img src="../img/service_body/play.png" alt=""></a></div>
+                        <div class="picAside"><img src="/img/service_body/2.png" alt=""></div>
+                        <div class="picPlay"><a href=""><img src="/img/service_body/play.png" alt=""></a></div>
                     </div>
                 </div>
                 <div class="service-body-item">
@@ -346,8 +346,8 @@
 
                     </div>
                     <div class="body-item-right">
-                        <div class="picAside"><img src="../img/service_body/3.png" alt=""></div>
-                        <div class="picPlay"><a href=""><img src="../img/service_body/play.png" alt=""></a></div>
+                        <div class="picAside"><img src="/img/service_body/3.png" alt=""></div>
+                        <div class="picPlay"><a href=""><img src="/img/service_body/play.png" alt=""></a></div>
                     </div>
                 </div>
                 <div class="service-body-item">
@@ -388,8 +388,8 @@
 
                     </div>
                     <div class="body-item-right">
-                        <div class="picAside"><img src="../img/service_body/4.png" alt=""></div>
-                        <div class="picPlay"><a href=""><img src="../img/service_body/play.png" alt=""></a></div>
+                        <div class="picAside"><img src="/img/service_body/4.png" alt=""></div>
+                        <div class="picPlay"><a href=""><img src="/img/service_body/play.png" alt=""></a></div>
                     </div>
                 </div>
 
@@ -397,8 +397,8 @@
         </div>
 
         <div class="footer__logos">
-            <img src="../img/logo.png" class="logo" alt="logo">
-            <img src="../img/slogan.png" class="slogan" alt="">
+            <img src="/img/logo.png" class="logo" alt="logo">
+            <img src="/img/slogan.png" class="slogan" alt="">
         </div>
         <div class="footer__menu">
             <a href="#" class="footer__menu-item">проекты</a>
@@ -407,10 +407,10 @@
             <a href="#" class="footer__menu-item">связь</a>
         </div>
         <div class="footer__socials">
-            <a href="#"><img src="..//img/Icons/fb.png" alt=""></a>
-            <a href="#"><img src="..//img/Icons/vk.png" alt=""></a>
-            <a href="#"><img src="..//img/Icons/youtube.png" alt=""></a>
-            <a href="#"><img src="..//img/Icons/inst.png" alt=""></a>
+            <a href="#"><img src="/img/Icons/fb.png" alt=""></a>
+            <a href="#"><img src="/img/Icons/vk.png" alt=""></a>
+            <a href="#"><img src="/img/Icons/youtube.png" alt=""></a>
+            <a href="#"><img src="/img/Icons/inst.png" alt=""></a>
         </div>
         <div class="footer__rights">
             <h5>
@@ -422,7 +422,7 @@
 
     </div>
     </div>
-    <script src="service.js"></script>
+    <script src="/source/service.js"></script>
     <!-- <script src="slider_mobile.js"></script> --> -->
 
     <!-- <script src="deleteN.js"></script> -->
