@@ -100,10 +100,10 @@
         let x2 = lastTouch.clientX; // координаты движения касания
         let y2 = lastTouch.clientY;
 
-        let xDiff = x2 - x1;
-        let yDiff = y2 - y1;
+        let xDiff = Math.abs(x2 - x1);
+        let yDiff = Math.abs(y2 - y1);
 
-        if (xDiff > yDiff||yDiff==0) {
+        if (xDiff > yDiff || yDiff==0) {
             const right = () => {
                 if (count1 < sliderImages1.length - 1) {
                     count1++; console.log(count1); rollSliderRight()
