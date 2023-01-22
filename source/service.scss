@@ -83,7 +83,7 @@
 
 .menu-item img {
     height: 100%;
-    max-width: 100%;
+    max-width: 101%;
     // flex: 1 0 0;
 }
 
@@ -100,7 +100,7 @@
     width: 100%;
     height: 100%;
     opacity: 0%;
-    transition: all 0.3s ease-in;
+    transition: all 0.5s ease-in;
 
 }
 
@@ -109,7 +109,7 @@
 .menu-item .rectangle3.active,
 .menu-item .rectangle4.active {
     opacity: 0%;
-    transition: all 0.3s ease-in;
+    transition: all 0.5s ease-in;
 }
 
 .menu-items-column1,
@@ -117,7 +117,7 @@
 .menu-items-column3,
 .menu-items-column4 {
     position: absolute;
-    transition: all 0.3s ease-in;
+    transition: all 0.5s ease-in;
 
     z-index: 2;
     left: 64%;
@@ -147,7 +147,7 @@
     z-index: 3;
     left: 27%;
     top: -5%;
-    transition: all 0.3s ease-in;
+    transition: all 0.5s ease-in;
 }
 
 .menu-item-plus1,
@@ -163,7 +163,7 @@
     padding-top: -5px;
     // background-color: aquamarine;
     // opacity: 30%;
-    transition: all 0.3s ease-in;
+    transition: all 0.5s ease-in;
 }
 
 .menu-item-plus1:before,
@@ -180,7 +180,7 @@
     background-color: #FFFFFF;
     width: 30px;
     height: 2px;
-    transition: all 0.3s ease-in;
+    transition: all 0.5s ease-in;
 }
 
 
@@ -192,7 +192,7 @@
     // top: 85%;
     // left: 91.5%;
     transform: rotate(90deg);
-    transition: all 0.3s ease-in;
+    transition: all 0.5s ease-in;
 }
 
 .menu-item-popup1.active,
@@ -206,7 +206,7 @@
     height: 100%;
     width: 50%;
     // opacity: 100%;
-    transition: all 0.3s ease-in;
+    transition: all 0.5s ease-in;
 }
 
 .menu-item-popup1,
@@ -219,7 +219,7 @@
     // background-color: aqua;
     height: 100%;
     width: 50%;
-    transition: all 0.3s ease-in;
+    transition: all 0.5s ease-in;
 }
 
 .menu-item-plus1.active,
@@ -232,7 +232,7 @@
     z-index: 3;
     width: 35px;
     height: 35px;
-    transition: all 0.3s ease-in;
+    transition: all 0.5s ease-in;
 }
 
 .menu-item-plus1.active:before,
@@ -249,7 +249,7 @@
     ;
     width: 15px;
     height: 2px;
-    transition: all 0.3s ease-in;
+    transition: all 0.5s ease-in;
 }
 
 .menu-item-plus1.active:before,
@@ -259,7 +259,7 @@
     transform: rotate(45deg);
     top: 22%;
     left: 3%;
-    transition: all 0.3s ease-in;
+    transition: all 0.5s ease-in;
 }
 
 .menu-item-plus1.active:after,
@@ -269,7 +269,7 @@
     transform: rotate(-45deg);
     top: 48%;
     left: 3%;
-    transition: all 0.3s ease-in;
+    transition: all 0.5s ease-in;
 }
 
 .menu-item-text1,
@@ -277,7 +277,7 @@
 .menu-item-text3,
 .menu-item-text4 {
     position: absolute;
-    transition: all 0.3s ease-in;
+    transition: all 0.5s ease-in;
     z-index: 1;
     left: 100%;
     top: 0%;
@@ -312,7 +312,7 @@
 .menu-item-text2.active,
 .menu-item-text3.active,
 .menu-item-text4.active {
-    transition: all 0.3s ease-in;
+    transition: all 0.5s ease-in;
     z-index: 3;
     left: 60%;
     top: 0%;
@@ -326,12 +326,7 @@
     align-items: center;
     justify-content: flex-end;
     max-width: 1920px;
-    // padding-left:150px;
-    // box-sizing: border-box;
-    // height: 100%;
     display: flex;
-    // justify-content: space-between;
-    // align-items: center;
 }
 
 .service-body-items {
@@ -525,12 +520,12 @@ h3.h3title {
     position: relative;
     width: 27%;
 
-    .picAside {
+    .pic-aside {
         width: 100%;
         height: 100%;
     }
 
-    .picPlay {
+    .pic-play {
         position: absolute;
         top: 45.54%;
         left: 50%;

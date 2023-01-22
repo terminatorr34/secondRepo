@@ -82,7 +82,7 @@
 
 .menu-item img {
   height: 100%;
-  max-width: 100%;
+  max-width: 101%;
 }
 
 .menu-item .rectangle1,
@@ -95,8 +95,8 @@
   width: 100%;
   height: 100%;
   opacity: 0%;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
 }
 
 .menu-item .rectangle1.active,
@@ -104,8 +104,8 @@
 .menu-item .rectangle3.active,
 .menu-item .rectangle4.active {
   opacity: 0%;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
 }
 
 .menu-items-column1,
@@ -113,8 +113,8 @@
 .menu-items-column3,
 .menu-items-column4 {
   position: absolute;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
   z-index: 2;
   left: 64%;
   top: -5%;
@@ -142,8 +142,8 @@
   z-index: 3;
   left: 27%;
   top: -5%;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
 }
 
 .menu-item-plus1,
@@ -157,8 +157,8 @@
   width: 40px;
   height: 40px;
   padding-top: -5px;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
 }
 
 .menu-item-plus1:before,
@@ -175,8 +175,8 @@
   background-color: #FFFFFF;
   width: 30px;
   height: 2px;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
 }
 
 .menu-item-plus1:after,
@@ -185,8 +185,8 @@
 .menu-item-plus4:after {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
 }
 
 .menu-item-popup1.active,
@@ -198,8 +198,8 @@
   z-index: 2;
   height: 100%;
   width: 50%;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
 }
 
 .menu-item-popup1,
@@ -211,8 +211,8 @@
   z-index: 4;
   height: 100%;
   width: 50%;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
 }
 
 .menu-item-plus1.active,
@@ -225,8 +225,8 @@
   z-index: 3;
   width: 35px;
   height: 35px;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
 }
 
 .menu-item-plus1.active:before,
@@ -242,8 +242,8 @@
   background-color: #FFFFFF;
   width: 15px;
   height: 2px;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
 }
 
 .menu-item-plus1.active:before,
@@ -254,8 +254,8 @@
           transform: rotate(45deg);
   top: 22%;
   left: 3%;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
 }
 
 .menu-item-plus1.active:after,
@@ -266,8 +266,8 @@
           transform: rotate(-45deg);
   top: 48%;
   left: 3%;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
 }
 
 .menu-item-text1,
@@ -275,8 +275,8 @@
 .menu-item-text3,
 .menu-item-text4 {
   position: absolute;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
   z-index: 1;
   left: 100%;
   top: 0%;
@@ -325,8 +325,8 @@
 .menu-item-text2.active,
 .menu-item-text3.active,
 .menu-item-text4.active {
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
   z-index: 3;
   left: 60%;
   top: 0%;
@@ -582,11 +582,11 @@ h3.h3title {
   position: relative;
   width: 27%;
 }
-.body-item-right .picAside {
+.body-item-right .pic-aside {
   width: 100%;
   height: 100%;
 }
-.body-item-right .picPlay {
+.body-item-right .pic-play {
   position: absolute;
   top: 45.54%;
   left: 50%;

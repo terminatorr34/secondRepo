@@ -79,11 +79,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: inherit;
 }
 
-input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  /* display: none; <- Crashes Chrome on hover */
   -webkit-appearance: none;
-  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+  margin: 0;
 }
 
 /*--------------------*/
@@ -204,13 +202,11 @@ input::-webkit-inner-spin-button {
 @media (max-width: 1600px) {
   .container {
     max-width: 1600px;
-    background-color: #ff0000;
   }
 }
 @media (max-width: 479px) {
   .container {
     max-width: 479px;
-    background-color: #ff0000;
   }
 }
 .container__body {
@@ -1002,8 +998,8 @@ input::-webkit-inner-spin-button {
   transition: all 0.4s ease-in;
   scale: 102%;
   cursor: auto;
-  -webkit-box-shadow: 1px 1px 3px rgb(93, 86, 86);
-          box-shadow: 1px 1px 3px rgb(93, 86, 86);
+  -webkit-box-shadow: 1px 1px 8px rgb(129, 106, 106);
+          box-shadow: 1px 1px 8px rgb(129, 106, 106);
 }
 .want__form [type=text]:hover,
 .want__form [type=phone]:hover,

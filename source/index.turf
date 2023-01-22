@@ -365,7 +365,7 @@
                 </div>
                 <div class="footer__menu">
                     <a href="#" class="footer__menu-item">проекты</a>
-                    <a href="#" class="footer__menu-item">услуги</a>
+                    <a href="service.html" class="footer__menu-item">услуги</a>
                     <a href="#" class="footer__menu-item">о студии</a>
                     <a href="#" class="footer__menu-item">связь</a>
                 </div>

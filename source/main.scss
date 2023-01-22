@@ -281,11 +281,6 @@
     }
 }
 
-.container {
-
-    &__body {}
-}
-
 .why {
     padding: 0 0 166px 0;
 
@@ -295,7 +290,6 @@
     display: none;
 }
 
-.arrows-item {}
 
 
 .why-title {
@@ -443,7 +437,7 @@
         transition: all 0.4s ease-in;
         scale: 102%;
         cursor: auto;
-        box-shadow: 1px 1px 3px rgb(93, 86, 86);
+        box-shadow: 1px 1px 8px rgb(129, 106, 106);
     }
 
     [type="text"]:hover,
@@ -915,21 +909,15 @@
 
 
 @media(max-width:479px) {
-
-    .shooting {}
-
     .shooting__title,
     .shooting__section-h3title {
         font-size: 24px;
         line-height: 29.3px
     }
-
     .shooting__section {
         display: flex;
         width: 100%;
         flex-direction: column;
-
-
     }
 
     .shooting__container {
@@ -940,9 +928,6 @@
         font-size: 16px;
     }
 
-    .text-todelete-br {
-        // width: 120%;
-    }
 
     .section2 {
         // background-color: red;
@@ -980,9 +965,6 @@
 }
 
 @media(max-width:767px) {
-
-    .shooting {}
-
     .shooting__title,
     .shooting__section-h3title {
         font-size: 24px;
@@ -1005,9 +987,7 @@
         font-size: 16px;
     }
 
-    .text-todelete-br {
-        // width: 120%;
-    }
+ 
 
     .section2 {
         // background-color: red;
@@ -1223,10 +1203,6 @@
     .nav-service {
         height: calc(222 * 5px);
         width: 100%;
-    }
-
-    .nav-items {
-        // height:223px;
     }
 
 }
