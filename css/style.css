@@ -79,6 +79,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: inherit;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
 /*--------------------*/
 .slider {
   max-width: 100%;
@@ -974,7 +981,7 @@ h1, h2, h3, h4, h5, h6 {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.want__form [type=text]:focus,
+.want__form [type=number]:focus,
 .want__form [type=email]:focus,
 .want__form [type=text]:focus,
 .want__form [type=textarea]:focus {
