@@ -81,12 +81,19 @@
     line-height: calc(65.49 / 31 * 100%);
     color: rgba(86, 86, 85, 1);
 }
+.h2title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: calc(93.85 / 45 * 100%);
+    color: rgba(86, 86, 85, 1);
+}
 
 
 .wrapper{
     max-width:100%;
     position: relative;
-    top:130px;
+    padding-top:130px;
+    // top:130px;
     
 }
 
