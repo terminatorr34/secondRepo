@@ -968,6 +968,11 @@ h1, h2, h3, h4, h5, h6 {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .want__form [type=text]:focus,
 .want__form [type=email]:focus,
@@ -990,9 +995,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .want__form [type=file] {
   background-color: green;
-  opacity: 0%;
+  opacity: 50%;
   z-index: 1;
-  position: relative;
+  position: absolute;
+  width: 86%;
 }
 .want__form [type=checkbox] {
   position: relative;
@@ -1067,7 +1073,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .column {
   position: relative;
-  width: 100%;
+  width: 33%;
+  height: 50%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -1075,6 +1082,15 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0 49px 0 0;
+}
+
+.mainForm-raw {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 66%;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .want__form-item {
@@ -1091,14 +1107,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .want__form-item-button {
   height: 66px;
-  width: 100%;
-  margin: 0 0px 28px 0;
+  width: 45%;
+  margin: 0 37px 28px 0;
   text-align: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: solid 0.3px #CCCCCC;
   -webkit-box-shadow: 1px 1px 2px rgb(144, 144, 144);
           box-shadow: 1px 1px 2px rgb(144, 144, 144);
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
 }
 
 @media (max-width: 1280px) {
@@ -1112,7 +1131,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 33px;
   }
 }
-@media (max-width: 479px) {
+@media (max-width: 767px) {
   form[name=mainForm] {
     position: relative;
     display: -webkit-box;
@@ -1206,10 +1225,11 @@ h1, h2, h3, h4, h5, h6 {
     margin: 30px 0 0 0;
   }
   .checkbox {
+    width: 50%;
     margin: 30px 0 0 0;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 479px) {
   form[name=mainForm] {
     position: relative;
     display: -webkit-box;
@@ -1221,6 +1241,13 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  form[name=mainForm] [type=file] {
+    background-color: rgb(74, 116, 221);
+    opacity: 50%;
+    z-index: 1;
+    position: absolute;
+    width: 98%;
   }
   .want {
     margin: 25px 0 0px 0;
@@ -1239,6 +1266,21 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 24px;
     line-height: 120.8333333333%;
     padding-bottom: 35px;
+  }
+  .want__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .column {
+    width: 100%;
+  }
+  .want__form-item {
+    margin: 0 0 23px 0;
   }
   .want__form-item,
 .want__form-copy {
@@ -1259,22 +1301,13 @@ h1, h2, h3, h4, h5, h6 {
   .want__form-item-button {
     height: 66px;
     width: 100%;
-    margin: 20px 0px 0px 0;
+    margin: 0px 0px 0px 0;
     text-align: center;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     border: solid 0.3px #CCCCCC;
     -webkit-box-shadow: 1px 1px 2px rgb(144, 144, 144);
             box-shadow: 1px 1px 2px rgb(144, 144, 144);
-  }
-  .want__form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
   }
   .column:first-child {
     display: -webkit-box;

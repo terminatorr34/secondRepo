@@ -1,8 +1,5 @@
 // слайдер для мобильной версии
 
-const matchMedia2 = window.matchMedia('(max-width:479px)')
-if (matchMedia2.matches) {
-
     const sliderLine1 = document.querySelector('.wraper__slider'),
         arrowLeft = document.querySelector('.arrow-left'),
         arrowRight = document.querySelector('.arrow-right'),
@@ -80,7 +77,7 @@ if (matchMedia2.matches) {
 
     let x1 = null;
     let y1 = null;
-    // функция возвращает кооржинаты первого касания event - любое событие которое происходит в дом
+    // функция возвращает координаты первого касания event - любое событие которое происходит в дом
     function handleTouchStart(event) {
         console.log(event)
         const firstTouch = event.touches[0]; // touches - это свойство события event обозначает касание мышкой или пальцем
@@ -180,7 +177,7 @@ if (matchMedia2.matches) {
     });
 window.addEventListener('resize', init1)
 window.addEventListener('resize', init1)
-}
+
 
 
 

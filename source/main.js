@@ -187,65 +187,71 @@ headerBurger.addEventListener('click', function togg(event) {
 
 // Функция удаляет поле отправить из формы и добавляет это же поле в соседнюю колонку для правильного порядка форм при разрешении 480px. свойство Order d css применить нельзя т.к. изначально поля разбиты на колонки и те поля которые надо помемнять местами оказались в разных колонках.
 
-const matchMedia3 = window.matchMedia('(max-width:479px)')
-if (matchMedia3.matches) {
+// const matchMedia3 = window.matchMedia('(max-width:479px)')
+// if (matchMedia3.matches) {
 
-    const orderInput = () => {
-        const newColumn = document.createElement('div');
-        newColumn.classList.add('newclass')
-    const columns1 = document.querySelectorAll('.column')
-    columns1[0].after(newColumn)
+//     const orderInput = () => {
+//         const newColumn = document.createElement('div');
+//         newColumn.classList.add('newclass')
+//     const columns1 = document.querySelectorAll('.column')
+//     columns1[0].after(newColumn)
 
 
-        const submitInput = document.querySelector('.want__form-item-button').remove();
-        console.log(submitInput)
+//         const submitInput = document.querySelector('.want__form-item-button').remove();
+//         console.log(submitInput)
 
-        const columns = document.getElementsByClassName('column')
-        console.log(columns)
-        newColumn.insertAdjacentHTML('afterbegin',
-            ` <button name="inputSubmit" type="submit"
-          class="want__form-item-button">Отправить</button>
-        `
-        )
-        document.querySelector('.checkbox').remove();
-        newColumn.insertAdjacentHTML('afterbegin',
-            `
-        <div class="checkbox"><input name="inputCheckbox" type="checkbox" checked="false" tabindex="6" checked><span>Согласен на обработку персональных данных<span> </div>
-        `)
-        document.querySelector('.input_box-textarea').remove();
-        newColumn.insertAdjacentHTML('afterbegin',
-            ` <div class="input_box input_box-textarea"> <textarea name="inputTextarea" type="textarea"
-        placeholder="Расскажите подробнее" class="want__form-item"
-        tabindex="5"></textarea>
-                </div>
-        `)
-        document.querySelector('.input_box-mail').remove();
-        columns[0].insertAdjacentHTML('beforeend',
-            ` <div class="input_box input_box-mail"> <input name="mail" type="email" placeholder="email"
-        class="want__form-item" tabindex="2"></div>
-        `)
+//         const columns = document.getElementsByClassName('column')
+//         console.log(columns)
+//         newColumn.insertAdjacentHTML('afterbegin',
+//             ` <button name="inputSubmit" type="submit"
+//           class="want__form-item-button">Отправить</button>
+//         `
+//         )
+//         document.querySelector('.checkbox').remove();
+//         newColumn.insertAdjacentHTML('afterbegin',
+//             `
+//         <div class="checkbox"><input name="inputCheckbox" type="checkbox" checked="false" tabindex="6" checked><span>Согласен на обработку персональных данных<span> </div>
+//         `)
+//         document.querySelector('.input_box-textarea').remove();
+//         newColumn.insertAdjacentHTML('afterbegin',
+//             ` <div class="input_box input_box-textarea"> <textarea name="inputTextarea" type="textarea"
+//         placeholder="Расскажите подробнее" class="want__form-item"
+//         tabindex="5"></textarea>
+//                 </div>
+//         `)
+//         document.querySelector('.input_box-mail').remove();
+//         columns[0].insertAdjacentHTML('beforeend',
+//             ` <div class="input_box input_box-mail"> <input name="mail" type="email" placeholder="email"
+//         class="want__form-item" tabindex="2"></div>
+//         `)
 
-        document.querySelector('.input_box-photo-background').remove();
-        columns[0].insertAdjacentHTML('beforeend',
-        ` <div class="input_box input_box-photo-background">
-        <input name="photo" type="file" placeholder="фото" class="want__form-item" value=""
-            tabindex="4" multiple>
-    </div>
-    `)
+//         document.querySelector('.input_box-photo-background').remove();
+//         columns[0].insertAdjacentHTML('beforeend',
+//         ` <div class="input_box input_box-photo-background">
+//         <input name="photo" type="file" placeholder="фото" class="want__form-item" value=""
+//             tabindex="4" multiple>
+//     </div>
+//     `)
 
-    document.querySelector ('.want__form-copy').remove();
-    columns[0].insertAdjacentHTML('beforeend',
-        `<input name="photo" type="input" value="" placeholder="photo" class=" want__form-copy"
-                                    disabled>
-    `)    
-    // columns[2].remove()
+//     document.querySelector ('.want__form-copy').remove();
+//     columns[0].insertAdjacentHTML('beforeend',
+//         `<input name="photo" type="input" value="" placeholder="photo" class=" want__form-copy"
+//                                     disabled>
+//     `)    
+//     // columns[2].remove()
 
-    }
+//     }
 
-// console.log(newColumn)
-    orderInput();
-    // window.addEventListener('resize', orderInput);
+// // console.log(newColumn)
+//     orderInput();
+//     // window.addEventListener('resize', orderInput);
 
-    document.querySelector('.text-todelete-br-delete-in-mobile').remove();
-}
+//     document.querySelector('.text-todelete-br-delete-in-mobile').remove();
+// }
 
+// window.addEventListener ('resize', matchMedia3)
+
+
+// let num = 11223333444455678;
+// num = [...String(num)];
+// console.log (num)
