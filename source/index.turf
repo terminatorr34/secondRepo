@@ -385,8 +385,8 @@
 
     </div>
     </div>
-    <script src="/source/js/main.js"></script>
-    <script src="/source/js/slider_mobile.js"></script>
+    <script src="source/js/main.js"></script>
+    <script src="source/js/slider_mobile.js"></script>
 
     <!-- <script src="deleteN.js"></script> -->
     <!-- <script src="form.js"></script> -->
