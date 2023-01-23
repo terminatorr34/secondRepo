@@ -223,8 +223,8 @@
 
                     </div>
                     <div class="body-item-right">
-                        <div class="pic-Aside"><img src="/img/service_body/1.png" alt=""></div>
-                        <div class="pic-Play"><a href=""><img src="/img/service_body/play.png" alt=""></a></div>
+                        <div class="pic-aside"><img src="/img/service_body/1.png" alt=""></div>
+                        <div class="pic-play"><a href=""><img src="/img/service_body/play.png" alt=""></a></div>
                     </div>
                 </div>
                 <div class="service-body-item">
@@ -283,8 +283,8 @@
 
                     </div>
                     <div class="body-item-right">
-                        <div class="picAside"><img src="/img/service_body/2.png" alt=""></div>
-                        <div class="picPlay"><a href=""><img src="/img/service_body/play.png" alt=""></a></div>
+                        <div class="pic-aside"><img src="/img/service_body/2.png" alt=""></div>
+                        <div class="pic-play"><a href=""><img src="/img/service_body/play.png" alt=""></a></div>
                     </div>
                 </div>
                 <div class="service-body-item">
@@ -346,8 +346,8 @@
 
                     </div>
                     <div class="body-item-right">
-                        <div class="picAside"><img src="/img/service_body/3.png" alt=""></div>
-                        <div class="picPlay"><a href=""><img src="/img/service_body/play.png" alt=""></a></div>
+                        <div class="pic-aside"><img src="/img/service_body/3.png" alt=""></div>
+                        <div class="pic-play"><a href=""><img src="/img/service_body/play.png" alt=""></a></div>
                     </div>
                 </div>
                 <div class="service-body-item">

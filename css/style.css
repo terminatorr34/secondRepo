@@ -91,6 +91,13 @@ input::-webkit-inner-spin-button {
   margin: 0px auto;
   overflow: hidden;
 }
+.slider__prev {
+  border: none;
+}
+.slider__next {
+  border: none;
+}
+
 .slider-line {
   display: -webkit-box;
   display: -ms-flexbox;
