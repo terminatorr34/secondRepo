@@ -184,6 +184,15 @@ headerBurger.addEventListener('click', function togg(event) {
     document.querySelector('body').classList.toggle('lock');
 })
 
+// Функция попап окна для сервис бади страницы мы выполняем, страницы  услуги мобильной версии.
+
+function popupService () {
+
+    const plusBtnService =  document.querySelectorAll('.letf-table-plus')
+console.log (plusBtnService)
+}
+
+popupService()
 
 // Функция удаляет поле отправить из формы и добавляет это же поле в соседнюю колонку для правильного порядка форм при разрешении 480px. свойство Order d css применить нельзя т.к. изначально поля разбиты на колонки и те поля которые надо помемнять местами оказались в разных колонках.
 

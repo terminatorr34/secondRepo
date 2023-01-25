@@ -29,7 +29,7 @@ plus1.addEventListener('click', function (event) {
     weImplement1.classList.toggle('active')
     rectangle1.classList.toggle('active')
     menuText1.classList.toggle('active')
-    
+
 })
 plus2.addEventListener('click', function (event) {
     popup2.classList.toggle('active')
@@ -37,7 +37,7 @@ plus2.addEventListener('click', function (event) {
     weImplement2.classList.toggle('active')
     rectangle2.classList.toggle('active')
     menuText2.classList.toggle('active')
-    
+
 })
 plus3.addEventListener('click', function (event) {
     popup3.classList.toggle('active')
@@ -45,7 +45,7 @@ plus3.addEventListener('click', function (event) {
     weImplement3.classList.toggle('active')
     rectangle3.classList.toggle('active')
     menuText3.classList.toggle('active')
-    
+
 })
 plus4.addEventListener('click', function (event) {
     popup4.classList.toggle('active')
@@ -53,7 +53,43 @@ plus4.addEventListener('click', function (event) {
     weImplement4.classList.toggle('active')
     rectangle4.classList.toggle('active')
     menuText4.classList.toggle('active')
-    
+
 })
 
 
+// Функция попап окна для сервис бади страницы мы выполняем, страницы  услуги мобильной версии.
+
+function popupService() {
+
+    const plusBtnService = document.querySelectorAll('.letf-table-plus')
+    const serviceItemLeft = document.querySelectorAll('.body-left-table-item')
+    // console.log(plusBtnService)
+    console.log(Array.isArray(serviceItemLeft))
+
+    function checkActive1(arr) { // функция проверяет есть ли класс Active1 в дивах .body-left-table-item, возвращает 0 если есть и -1 если нет
+
+         const f = Array.from(arr) 
+         console.log (f)
+
+      const resArray = f.filter((Element) => {return Element.classList.contains('active1')})
+         
+         return resArray
+    }
+    
+    const ret1 = checkActive1(serviceItemLeft)
+    console.log(ret1)
+
+    for (let i = 0; i < plusBtnService.length; i++) {
+        plusBtnService[i].addEventListener('click', function () {
+            serviceItemLeft[i].classList.toggle('active1')
+
+        })
+
+    
+    }
+    
+
+}
+
+
+popupService()

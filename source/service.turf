@@ -48,15 +48,15 @@
 
                 <div class="service-menu-items">
                     <div class="menu-item">
-                        <img src="/img/service_menu/1.png" alt="">
+                        <img src="img/service_menu/1.png" alt="">
                         <div class="menu-items-h3">
                             <h3>ФОТОСЪЕМКА</h3>
                         </div>
-                        <div class="rectangle1"><img src="/img/service_menu/rectangle.png" alt=""></div>
+                        <div class="rectangle1"><img src="img/service_menu/rectangle.png" alt=""></div>
                         <div class="menu-items-column1">мы выполняем</div>
                         <div class="menu-item-plus1"></div>
                         <!-- <div class="menu-item-semiplus"></div> -->
-                        <div class="menu-item-popup1"><img src="/img/service_menu/rectangle_menu.png" alt=""></div>
+                        <div class="menu-item-popup1"><img src="img/service_menu/rectangle_menu.png" alt=""></div>
                         <div class="menu-item-text1">
                             <ul>
                                 <li>ПРОМЫШЛЕННАЯ СЪЕМКА</li>
@@ -71,16 +71,16 @@
                 </div>
                 <div class="service-menu-items">
                     <div class="menu-item">
-                        <img src="/img/service_menu/2.png" alt="">
+                        <img src="img/service_menu/2.png" alt="">
                         <div class="menu-items-h3">
                             <h3>ДИЗАЙН И ИЛЛЮСТРАЦИИ</h3>
                         </div>
-                        <div class="rectangle2"><img src="/img/service_menu/rectangle.png" alt=""></div>
+                        <div class="rectangle2"><img src="img/service_menu/rectangle.png" alt=""></div>
                         <div class="menu-items-column2">
                             <h4>мы выполняем</h4>
                         </div>
                         <div class="menu-item-plus2"><span></span></div>
-                        <div class="menu-item-popup2"><img src="/img/service_menu/rectangle_menu.png" alt=""></div>
+                        <div class="menu-item-popup2"><img src="img/service_menu/rectangle_menu.png" alt=""></div>
                         <div class="menu-item-text2">
                             <ul>
                                 <li>КОРПОРАТИВНЫЕ ФИЛЬМЫ И ПРЕЗЕНТАЦИИ</li>
@@ -96,16 +96,16 @@
                 </div>
                 <div class="service-menu-items">
                     <div class="menu-item">
-                        <img src="/img/service_menu/3.png" alt="">
+                        <img src="img/service_menu/3.png" alt="">
                         <div class="menu-items-h3">
                             <h3>ВИДЕОСЪЕМКА</h3>
                         </div>
-                        <div class="rectangle3"><img src="/img/service_menu/rectangle.png" alt=""></div>>
+                        <div class="rectangle3"><img src="img/service_menu/rectangle.png" alt=""></div>>
                         <div class="menu-items-column3">
                             <h4>мы выполняем</h4>
                         </div>
                         <div class="menu-item-plus3"><span></span></div>
-                        <div class="menu-item-popup3"><img src="/img/service_menu/rectangle_menu.png" alt=""></div>
+                        <div class="menu-item-popup3"><img src="img/service_menu/rectangle_menu.png" alt=""></div>
                         <div class="menu-item-text3">
                             <ul>
                                 <li>Фирменный стиль и логотипы
@@ -125,16 +125,16 @@
                 </div>
                 <div class="service-menu-items">
                     <div class="menu-item">
-                        <img src="/img/service_menu/4.png" alt="">
+                        <img src="img/service_menu/4.png" alt="">
                         <div class="menu-items-h3">
                             <h3>ДОПОЛНЕННАЯ РЕАЛЬНОСТЬ</h3>
                         </div>
-                        <div class="rectangle4"><img src="/img/service_menu/rectangle.png" alt=""></div>
+                        <div class="rectangle4"><img src="img/service_menu/rectangle.png" alt=""></div>
                         <div class="menu-items-column4">
                             <h4>мы выполняем</h4>
                         </div>
                         <div class="menu-item-plus4"><span></span></div>
-                        <div class="menu-item-popup4"><img src="/img/service_menu/rectangle_menu.png" alt=""></div>
+                        <div class="menu-item-popup4"><img src="img/service_menu/rectangle_menu.png" alt=""></div>
                         <div class="menu-item-text4">
                             <ul>
                                 <li>ВЫСТАВОЧНЫЕ СТЕНДЫ
@@ -153,7 +153,7 @@
             </div>
         </div>
 
-        <div class="contaner container-service-body">
+        <div class="container container-service-body">
             <div class="service-body-items">
                 <div class="service-body-item">
                     <div class="body-item-left">
@@ -169,7 +169,8 @@
                         <h3 class="h3title">МЫ ВЫПОЛНЯЕМ</h3>
                         <div class="body-left-table">
 
-                            <div class="body-left-table-item">
+                            <div class="body-left-table-item active1">
+                                <div class="letf-table-plus"></div>
                                 <ul>ПРОМЫШЛЕННАЯ СЪЕМКА
                                     <li>Фотосъемка заводов</li>
                                     <li>Фотосъемка предприятий и производств </li>
@@ -177,13 +178,16 @@
                                 </ul>
 
                             </div>
-                            <div class="body-left-table-item">
+                            <div class="body-left-table-item active1">
+                                <div class="letf-table-plus"></div>
                                 <ul>РЕКЛАМНАЯ ФОТОСЪЕМКА
                                     <li>Изготовление плакатов</li>
 
                                 </ul>
                             </div>
+                            
                             <div class="body-left-table-item">
+                                <div class="letf-table-plus"></div>
                                 <ul>ИМИДЖЕВАЯ СЪЕМКА
                                     <li>Имиджевые календари
 
@@ -192,15 +196,16 @@
                                     </li>
                                     <li>Бизнес-портреты</li>
                                 </ul>
+                            
                             </div>
-                            <div class="body-left-table-item">
+                            <div class="body-left-table-item"><div class="letf-table-plus"></div>
                                 <ul>АЭРОСЪЕМКА СЪЕМКА
                                     <li>Аэросъемка строительства
                                     </li>
                                     <li>Аэросъемка города</li>
                                 </ul>
                             </div>
-                            <div class="body-left-table-item">
+                            <div class="body-left-table-item"><div class="letf-table-plus"></div>
                                 <ul>КОРПОРАТИВНАЯ СЪЕМКА
                                     <li>Корпоративная фотосъемка
                                     </li>
@@ -209,7 +214,7 @@
 
                                 </ul>
                             </div>
-                            <div class="body-left-table-item">
+                            <div class="body-left-table-item"><div class="letf-table-plus"></div>
                                 <ul>ИМИДЖЕВАЯ СЪЕМКА
                                     <li>Имиджевые календари
 
@@ -225,6 +230,9 @@
                     <div class="body-item-right">
                         <div class="pic-aside"><img src="/img/service_body/1.png" alt=""></div>
                         <div class="pic-play"><a href=""><img src="/img/service_body/play.png" alt=""></a></div>
+                    </div>
+                    <div class="body-item-right-mobile">
+                        <img src='img/service_body/1_mobile.png' alt="">
                     </div>
                 </div>
                 <div class="service-body-item">
@@ -285,6 +293,9 @@
                     <div class="body-item-right">
                         <div class="pic-aside"><img src="/img/service_body/2.png" alt=""></div>
                         <div class="pic-play"><a href=""><img src="/img/service_body/play.png" alt=""></a></div>
+                    </div>
+                    <div class="body-item-right-mobile">
+                        <img src='img/service_body/2_mobile.png' alt="">
                     </div>
                 </div>
                 <div class="service-body-item">
@@ -349,6 +360,10 @@
                         <div class="pic-aside"><img src="/img/service_body/3.png" alt=""></div>
                         <div class="pic-play"><a href=""><img src="/img/service_body/play.png" alt=""></a></div>
                     </div>
+                    <div class="body-item-right-mobile">
+                        <img src='img/service_body/2_mobile.png' alt="">
+                    </div>
+                  
                 </div>
                 <div class="service-body-item">
                     <div class="body-item-left">
@@ -390,6 +405,9 @@
                     <div class="body-item-right">
                         <div class="picAside"><img src="/img/service_body/4.png" alt=""></div>
                         <div class="picPlay"><a href=""><img src="/img/service_body/play.png" alt=""></a></div>
+                    </div>
+                    <div class="body-item-right-mobile">
+                        <img src='img/service_body/2_mobile.png' alt="">
                     </div>
                 </div>
 

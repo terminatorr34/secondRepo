@@ -1,22 +1,4 @@
-// .block {
-//     position: relative;
-//     top:100px;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     height: 256px;
-//     // background: url(../img/menu__background.png) 0 0 /cover no-repeat;
-//     width: 100%;
-
-// background-size: auto auto;
-
-// }
-
-
-
-
 .body {
-
 
     &__menu {
         position: relative;
@@ -29,9 +11,6 @@
     }
 }
 
-// .body__menu-slider{
-// display: none;
-// }
 
 .menu-list {
 
@@ -228,7 +207,7 @@
 
 
 
-@media(max-width:1280px) {
+@media(max-width:1279px) {
     .body {
 
         &__menu {
