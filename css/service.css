@@ -689,88 +689,137 @@ h3.h3title {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .body-left-table .body-left-table-item.active1 {
-    background-color: #f4d0d0;
+  .body-left-table .body-left-table-item,
+.body-left-table .body-left-table-item:hover {
+    min-width: 100%;
+    border: solid rgb(222, 222, 223);
+    background-image: none;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+  }
+  .body-left-table .body-left-table-item ul,
+.body-left-table .body-left-table-item:hover ul {
+    text-align: center;
+    padding: 27px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(86, 86, 85);
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+  }
+  .body-left-table .body-left-table-item li,
+.body-left-table .body-left-table-item:hover li {
+    display: none;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+  }
+  .body-left-table .body-left-table-item:first-child,
+.body-left-table .body-left-table-item:nth-child(2),
+.body-left-table .body-left-table-item:first-child:hover,
+.body-left-table .body-left-table-item:nth-child(2):hover {
+    border-bottom: none;
+    background-image: none;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+  }
+  .body-left-table .body-left-table-item:first-child ul,
+.body-left-table .body-left-table-item:nth-child(2) ul,
+.body-left-table .body-left-table-item:first-child:hover ul,
+.body-left-table .body-left-table-item:nth-child(2):hover ul {
+    text-align: center;
+    padding: 27px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(86, 86, 85);
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+  }
+  .body-left-table .body-left-table-item:first-child li,
+.body-left-table .body-left-table-item:nth-child(2) li,
+.body-left-table .body-left-table-item:first-child:hover li,
+.body-left-table .body-left-table-item:nth-child(2):hover li {
+    display: none;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+  }
+  .body-left-table .body-left-table-item:nth-child(3):hover, .body-left-table .body-left-table-item:nth-child(3) {
+    border-bottom: none;
+    background-image: none;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+  }
+  .body-left-table .body-left-table-item:nth-child(3):hover ul, .body-left-table .body-left-table-item:nth-child(3) ul {
+    text-align: center;
+    padding: 27px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(86, 86, 85);
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+  }
+  .body-left-table .body-left-table-item:nth-child(3):hover li, .body-left-table .body-left-table-item:nth-child(3) li {
+    display: none;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+  }
+  .body-left-table .body-left-table-item:nth-child(5):hover, .body-left-table .body-left-table-item:nth-child(5), .body-left-table .body-left-table-item:nth-child(6),
+.body-left-table .body-left-table-item:nth-child(6):hover {
+    border-top: none;
+    background-image: none;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+  }
+  .body-left-table .body-left-table-item:nth-child(5):hover ul, .body-left-table .body-left-table-item:nth-child(5) ul, .body-left-table .body-left-table-item:nth-child(6) ul,
+.body-left-table .body-left-table-item:nth-child(6):hover ul {
+    text-align: center;
+    padding: 27px 0;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(86, 86, 85);
+  }
+  .body-left-table .body-left-table-item:nth-child(5):hover li, .body-left-table .body-left-table-item:nth-child(5) li, .body-left-table .body-left-table-item:nth-child(6) li,
+.body-left-table .body-left-table-item:nth-child(6):hover li {
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    display: none;
+  }
+  .body-left-table .body-left-table-item.nohover, .body-left-table .body-left-table-item.nohover:hover {
+    background-image: url(../img/service_menu/1_blurred.png);
     background-size: cover;
+    height: 200px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-size: 18px;
     font-weight: 700;
-    color: rgb(255, 255, 255);
+    color: rgb(222, 222, 223);
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
   }
-  .body-left-table .body-left-table-item.active1 ul {
+  .body-left-table .body-left-table-item.nohover ul, .body-left-table .body-left-table-item.nohover:hover ul {
     display: block;
     height: 100%;
     font-size: 18px;
     font-weight: 700;
-    color: rgb(255, 255, 255);
+    color: rgb(222, 222, 223);
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
   }
-  .body-left-table li {
+  .body-left-table .body-left-table-item.nohover ul li, .body-left-table .body-left-table-item.nohover:hover ul li {
     display: block;
     font-size: 18px;
     font-weight: 400;
-    color: rgb(57, 41, 41);
-  }
-  .body-left-table-item, .body-left-table-item:hover {
-    min-width: 100%;
-    border: solid rgb(222, 222, 223);
-    background-image: none;
-  }
-  .body-left-table-item ul, .body-left-table-item:hover ul {
-    text-align: center;
-    padding: 27px 0;
-    font-size: 16px;
-    font-weight: 400;
-    color: rgb(86, 86, 85);
-  }
-  .body-left-table-item li, .body-left-table-item:hover li {
-    display: none;
-  }
-  .body-left-table-item:first-child,
-.body-left-table-item:nth-child(2), .body-left-table-item:first-child:hover, .body-left-table-item:nth-child(2):hover {
-    border-bottom: none;
-    background-image: none;
-  }
-  .body-left-table-item:first-child ul,
-.body-left-table-item:nth-child(2) ul, .body-left-table-item:first-child:hover ul, .body-left-table-item:nth-child(2):hover ul {
-    text-align: center;
-    padding: 27px 0;
-    font-size: 16px;
-    font-weight: 400;
-    color: rgb(86, 86, 85);
-  }
-  .body-left-table-item:first-child li,
-.body-left-table-item:nth-child(2) li, .body-left-table-item:first-child:hover li, .body-left-table-item:nth-child(2):hover li {
-    display: none;
-  }
-  .body-left-table-item:nth-child(3):hover {
-    border-bottom: solid rgb(222, 222, 223);
-    background-image: none;
-  }
-  .body-left-table-item:nth-child(3):hover ul {
-    text-align: center;
-    padding: 27px 0;
-    font-size: 16px;
-    font-weight: 400;
-    color: rgb(86, 86, 85);
-  }
-  .body-left-table-item:nth-child(3):hover li {
-    display: none;
-  }
-  .body-left-table-item:nth-child(4):hover, .body-left-table-item:nth-child(5):hover, .body-left-table-item:nth-child(6):hover {
-    border-top: none;
-    background-image: none;
-  }
-  .body-left-table-item:nth-child(4):hover ul, .body-left-table-item:nth-child(5):hover ul, .body-left-table-item:nth-child(6):hover ul {
-    text-align: center;
-    padding: 27px 0;
-    font-size: 16px;
-    font-weight: 400;
-    color: rgb(86, 86, 85);
-  }
-  .body-left-table-item:nth-child(4):hover li, .body-left-table-item:nth-child(5):hover li, .body-left-table-item:nth-child(6):hover li {
-    display: none;
+    color: rgb(222, 222, 223);
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
   }
   .letf-table-plus {
     position: absolute;
@@ -793,6 +842,35 @@ h3.h3title {
   .letf-table-plus::after {
     content: "";
     background-color: rgb(86, 86, 85);
+    width: 15px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .letf-table-plus.active1 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 84%;
+    left: 95%;
+    z-index: 2;
+    color: rgb(222, 222, 223);
+  }
+  .letf-table-plus.active1::before {
+    content: "";
+    background-color: rgb(222, 222, 223);
+    width: 15px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+  }
+  .letf-table-plus.active1::after {
+    content: "";
+    background-color: rgb(222, 222, 223);
     width: 15px;
     height: 1px;
     position: absolute;

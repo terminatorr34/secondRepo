@@ -63,21 +63,34 @@ function popupService() {
 
     const plusBtnService = document.querySelectorAll('.letf-table-plus')
     const serviceItemLeft = document.querySelectorAll('.body-left-table-item')
-    console.log(plusBtnService)
-    console.log(Array.isArray(serviceItemLeft))
-
+    // const removeClassHover = document.querySelectorAll('.')
     // function checkActive1(arr) { // функция проверяет есть ли класс Active1 в дивах .body-left-table-item, возвращает массив или пустой массив
     //   const resArray = Array.from(arr).filter((Element) => {return Element.classList.contains('active1')})
     //      return resArray
     // }
     // const ret1 = checkActive1(serviceItemLeft)
-    // console.log(ret1.length)
+    console.log(serviceItemLeft)
     
 
 
     for (let i = 0; i < plusBtnService.length; i++) {
         plusBtnService[i].addEventListener('click', function () {
-            serviceItemLeft[i].classList.toggle('active1')} )
+            // document.querySelectorAll('.body-left-table-item')[i].classList.remove();
+            serviceItemLeft[i].classList.toggle('active1')
+            plusBtnService[i].classList.toggle('active1')
+            serviceItemLeft[i].classList.toggle('nohover')
+        
+        } )
+        
+    }
+    for (let i = 0; i < plusBtnService.length; i++) {
+        plusBtnService[i].addEventListener('blur', function () {
+            // document.querySelectorAll('.body-left-table-item')[i].classList.remove();
+            serviceItemLeft[i].classList('active1').remove();
+            plusBtnService[i].classList('active1').remove();
+            serviceItemLeft[i].classList('nohover').remove();
+        
+        } )
         
     }
 }
