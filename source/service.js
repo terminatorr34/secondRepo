@@ -63,32 +63,23 @@ function popupService() {
 
     const plusBtnService = document.querySelectorAll('.letf-table-plus')
     const serviceItemLeft = document.querySelectorAll('.body-left-table-item')
-    // console.log(plusBtnService)
+    console.log(plusBtnService)
     console.log(Array.isArray(serviceItemLeft))
 
-    function checkActive1(arr) { // функция проверяет есть ли класс Active1 в дивах .body-left-table-item, возвращает 0 если есть и -1 если нет
-
-         const f = Array.from(arr) 
-         console.log (f)
-
-      const resArray = f.filter((Element) => {return Element.classList.contains('active1')})
-         
-         return resArray
-    }
+    // function checkActive1(arr) { // функция проверяет есть ли класс Active1 в дивах .body-left-table-item, возвращает массив или пустой массив
+    //   const resArray = Array.from(arr).filter((Element) => {return Element.classList.contains('active1')})
+    //      return resArray
+    // }
+    // const ret1 = checkActive1(serviceItemLeft)
+    // console.log(ret1.length)
     
-    const ret1 = checkActive1(serviceItemLeft)
-    console.log(ret1)
+
 
     for (let i = 0; i < plusBtnService.length; i++) {
         plusBtnService[i].addEventListener('click', function () {
-            serviceItemLeft[i].classList.toggle('active1')
-
-        })
-
-    
+            serviceItemLeft[i].classList.toggle('active1')} )
+        
     }
-    
-
 }
 
 
