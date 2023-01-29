@@ -106,7 +106,6 @@ input::-webkit-inner-spin-button {
   height: 100%;
   -webkit-transition: all ease 1s;
   transition: all ease 1s;
-  background-color: orangered;
 }
 .slider-line img {
   height: 100%;
@@ -1442,7 +1441,7 @@ input::-webkit-inner-spin-button {
 }
 @media (max-width: 1024px) {
   .shooting__title {
-    padding: 0px 0 25px 0;
+    padding: 20px 0 25px 0;
     line-height: normal;
     max-width: 80%;
   }
