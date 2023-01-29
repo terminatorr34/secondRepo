@@ -4,7 +4,6 @@
   src: url(../font/UniSans-Trial-Regulas.otf);
   src: url(../font/UniSans-Trial-SemiBold.otf);
   src: url(../font/UniSans-Trial-Light.otf);
-  src: url(../font/UniSans-Trial-LightItalic.otf);
   font-family: "UniSans-Trial";
 }
 /*Обнуление*/
@@ -456,7 +455,7 @@ input::-webkit-inner-spin-button {
   .header__container {
     padding: 12px 17px 9px 17px;
   }
-  .header__menu {
+  .header__menu, .header__menu1 {
     margin: 0 0 0 21px;
   }
   .header__menu-item {
@@ -484,14 +483,14 @@ input::-webkit-inner-spin-button {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-  .header__burger {
+  .header__burger, .header__burger1 {
     display: none;
     margin-left: 50px;
     width: 30px;
     height: 20px;
     position: relative;
   }
-  .header__burger span {
+  .header__burger span, .header__burger1 span {
     position: absolute;
     background-color: black;
     width: 100%;
@@ -499,18 +498,18 @@ input::-webkit-inner-spin-button {
     left: 0;
     top: 9px;
   }
-  .header__burger:before,
-.header__burger:after {
+  .header__burger:before, .header__burger1:before,
+.header__burger:after, .header__burger1:after {
     content: "";
     position: absolute;
     background-color: black;
     width: 100%;
     height: 2px;
   }
-  .header__burger:before {
+  .header__burger:before, .header__burger1:before {
     top: 0px;
   }
-  .header__burger:after {
+  .header__burger:after, .header__burger1:after {
     bottom: 0px;
   }
   .header__container {
@@ -524,7 +523,7 @@ input::-webkit-inner-spin-button {
     width: 0%;
     height: 0%;
   }
-  .header__menu {
+  .header__menu, .header__menu {
     z-index: 21;
     margin: 0 0 0 21px;
     width: 50%;
@@ -557,7 +556,7 @@ input::-webkit-inner-spin-button {
             justify-content: space-between;
     width: 102%;
   }
-  .header__burger {
+  .header__burger, .header__burger1 {
     margin-left: 20px;
     width: 30px;
     height: 20px;
@@ -568,7 +567,7 @@ input::-webkit-inner-spin-button {
     -webkit-transition: all 1.5s ease;
     transition: all 1.5s ease;
   }
-  .header__burger span {
+  .header__burger span, .header__burger1 span {
     position: absolute;
     background-color: black;
     width: 100%;
@@ -578,27 +577,27 @@ input::-webkit-inner-spin-button {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
-  .header__burger.active:before {
+  .header__burger.active:before, .header__burger1.active:before {
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
     top: 9px;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
   }
-  .header__burger.active:after {
+  .header__burger.active:after, .header__burger1.active:after {
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
     bottom: 9px;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
   }
-  .header__burger.active span {
+  .header__burger.active span, .header__burger1.active span {
     scale: 0;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
   }
-  .header__burger:before,
-.header__burger:after {
+  .header__burger:before, .header__burger1:before,
+.header__burger:after, .header__burger1:after {
     content: "";
     position: absolute;
     background-color: black;
@@ -607,10 +606,10 @@ input::-webkit-inner-spin-button {
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
   }
-  .header__burger:before {
+  .header__burger:before, .header__burger1:before {
     top: 0px;
   }
-  .header__burger:after {
+  .header__burger:after, .header__burger1:after {
     bottom: 0px;
   }
   .header__container {
@@ -622,7 +621,7 @@ input::-webkit-inner-spin-button {
     height: 130px;
     width: 100%;
   }
-  .header__menu {
+  .header__menu, .header__menu1 {
     display: block;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -639,7 +638,7 @@ input::-webkit-inner-spin-button {
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
   }
-  .header__menu.active {
+  .header__menu.active, .header__menu1.active {
     display: block;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -838,7 +837,7 @@ input::-webkit-inner-spin-button {
     transition: all 0.5s ease-in-out;
   }
 }
-@media (max-width: 1280px) {
+@media (max-width: 1279px) {
   .body__menu {
     -ms-flex-pack: distribute;
         justify-content: space-around;

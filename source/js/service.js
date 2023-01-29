@@ -1,4 +1,5 @@
 // pop-up на странице service. при нажатии на плюс появляется меню для 4ех различных блоков
+function popUpServiceHEader () {
 const plus1 = document.querySelector('.menu-item-plus1')
 const popup1 = document.querySelector('.menu-item-popup1')
 const weImplement1 = document.querySelector('.menu-items-column1')
@@ -55,45 +56,36 @@ plus4.addEventListener('click', function (event) {
     menuText4.classList.toggle('active')
 
 })
-
-
+}
+popUpServiceHEader ()
 // Функция попап окна для сервис бади страницы мы выполняем, страницы  услуги мобильной версии.
 
 function popupService() {
 
     const plusBtnService = document.querySelectorAll('.letf-table-plus')
     const serviceItemLeft = document.querySelectorAll('.body-left-table-item')
-    // const removeClassHover = document.querySelectorAll('.')
-    // function checkActive1(arr) { // функция проверяет есть ли класс Active1 в дивах .body-left-table-item, возвращает массив или пустой массив
-    //   const resArray = Array.from(arr).filter((Element) => {return Element.classList.contains('active1')})
-    //      return resArray
-    // }
-    // const ret1 = checkActive1(serviceItemLeft)
-    console.log(serviceItemLeft)
     
-
-
     for (let i = 0; i < plusBtnService.length; i++) {
         plusBtnService[i].addEventListener('click', function () {
             // document.querySelectorAll('.body-left-table-item')[i].classList.remove();
             serviceItemLeft[i].classList.toggle('active1')
             plusBtnService[i].classList.toggle('active1')
             serviceItemLeft[i].classList.toggle('nohover')
-        
-        } )
-        
-    }
-    for (let i = 0; i < plusBtnService.length; i++) {
-        plusBtnService[i].addEventListener('blur', function () {
-            // document.querySelectorAll('.body-left-table-item')[i].classList.remove();
-            serviceItemLeft[i].classList('active1').remove();
-            plusBtnService[i].classList('active1').remove();
-            serviceItemLeft[i].classList('nohover').remove();
-        
-        } )
-        
-    }
+        } )   
+    }   
 }
-
-
 popupService()
+
+// бургер для страницы сервис . надо узнать почему он отдельно не запустился для двух страниц
+
+const headerBurger1 = document.querySelector('.header__burger1');
+const headerMenu1 = document.querySelector('.header__menu1');
+
+console.log(headerBurger1);
+console.log(headerMenu1);
+
+headerBurger1.addEventListener('click', function togg(event) {
+    headerBurger1.classList.toggle('active');
+    headerMenu1.classList.toggle('active');
+    document.querySelector('body').classList.toggle('lock');
+})

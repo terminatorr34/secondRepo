@@ -195,7 +195,7 @@
 
     .header__contacts {}
 
-    .header__menu {
+    .header__menu, .header__menu1 {
         margin: 0 0 0 21px;
     }
 
@@ -229,7 +229,7 @@
         justify-content: space-around;
     }
 
-    .header__burger {
+    .header__burger, .header__burger1 {
         display: none;
         margin-left: 50px;
         width: 30px;
@@ -248,8 +248,8 @@
         }
     }
 
-    .header__burger:before,
-    .header__burger:after {
+    .header__burger:before, .header__burger1:before,
+    .header__burger:after, .header__burger1:after {
         content: "";
         position: absolute;
         background-color: black;
@@ -257,11 +257,11 @@
         height: 2px;
     }
 
-    .header__burger:before {
+    .header__burger:before, .header__burger1:before {
         top: 0px;
     }
 
-    .header__burger:after {
+    .header__burger:after, .header__burger1:after {
         bottom: 0px;
     }
 
@@ -279,7 +279,7 @@
         height: 0%;
     }
 
-    .header__menu {
+    .header__menu, .header__menu {
         // background-color: aquamarine;
         // position: fixed;
         z-index: 21;
@@ -320,7 +320,7 @@
         width: 102%;
     }
 
-    .header__burger {
+    .header__burger, .header__burger1{
         margin-left: 20px;
         width: 30px;
         height: 20px;
@@ -341,17 +341,17 @@
         }
     }
 
-    .header__burger.active:before{
+    .header__burger.active:before, .header__burger1.active:before{
         transform: rotate(45deg);
         top:9px;
         transition: all 0.5s ease ;
     }
-    .header__burger.active:after{
+    .header__burger.active:after, .header__burger1.active:after{
         transform: rotate(-45deg);
         bottom: 9px;
         transition: all 0.5s ease ;
     }
-    .header__burger.active{
+    .header__burger.active, .header__burger1.active{
         span{
             scale: 0;
             transition: all 0.5s ease ;
@@ -359,8 +359,8 @@
         
     }
 
-    .header__burger:before,
-    .header__burger:after {
+    .header__burger:before, .header__burger1:before,
+    .header__burger:after, .header__burger1:after {
         content: "";
         position: absolute;
         background-color: black;
@@ -369,11 +369,11 @@
         transition: all 0.5s ease ;
     }
 
-    .header__burger:before {
+    .header__burger:before, .header__burger1:before {
         top: 0px;
     }
 
-    .header__burger:after {
+    .header__burger:after, .header__burger1:after {
         bottom: 0px;
     }
 
@@ -392,7 +392,7 @@
         
     }
 
-    .header__menu {
+    .header__menu, .header__menu1 {
         display: block;
         flex-direction: row;
         background-color: rgb(145, 247, 213);
@@ -406,7 +406,7 @@
         left:-23px;
         transition: all 0.4s ease;
     }
-    .header__menu.active {
+    .header__menu.active, .header__menu1.active {
         display: block;
         flex-direction: row;
         background-color: rgb(182, 191, 198);

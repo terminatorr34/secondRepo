@@ -803,7 +803,7 @@ h3.h3title {
         .body-left-table-item.nohover, .body-left-table-item.nohover:hover {
             background-image: url(../img/service_menu/1_blurred.png);
             background-size: cover;
-            height: 200px;
+            height: 270px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -820,6 +820,7 @@ h3.h3title {
                 display: block;
                 @include fontsize_weight_color(18px, 400,  rgba(222, 222, 223, 1));
                 transition: all 0.5s ease-in;
+                padding:10px 0 0 0;
             }
         }
 

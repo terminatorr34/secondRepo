@@ -788,7 +788,7 @@ h3.h3title {
   .body-left-table .body-left-table-item.nohover, .body-left-table .body-left-table-item.nohover:hover {
     background-image: url(../img/service_menu/1_blurred.png);
     background-size: cover;
-    height: 200px;
+    height: 270px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -820,6 +820,7 @@ h3.h3title {
     color: rgb(222, 222, 223);
     -webkit-transition: all 0.5s ease-in;
     transition: all 0.5s ease-in;
+    padding: 10px 0 0 0;
   }
   .letf-table-plus {
     position: absolute;
