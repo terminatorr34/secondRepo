@@ -460,8 +460,8 @@
 
     </div>
     </div>
-    <script src="source/js/main.js"></script>
-    <script src="source/js/service.js"></script>
+    <!-- <script type="module" src="source/js/main.js"></script> -->
+    <script type="module" src="source/js/service.js"></script>
     <!-- <script src="slider_mobile.js"></script> --> -->
 
     <!-- <script src="deleteN.js"></script> -->
