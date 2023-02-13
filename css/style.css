@@ -1000,13 +1000,13 @@ input::-webkit-inner-spin-button {
 .want__form [type=email]:focus,
 .want__form [type=text]:focus,
 .want__form [type=textarea]:focus {
-  background-color: #faecec;
+  background-color: #faf6f6;
   -webkit-transition: all 0.4s ease-in;
   transition: all 0.4s ease-in;
-  scale: 102%;
+  scale: 101%;
   cursor: auto;
-  -webkit-box-shadow: 1px 1px 8px rgb(129, 106, 106);
-          box-shadow: 1px 1px 8px rgb(129, 106, 106);
+  -webkit-box-shadow: 1px 1px 3px rgb(129, 106, 106);
+          box-shadow: 1px 1px 3px rgb(129, 106, 106);
 }
 .want__form [type=text]:hover,
 .want__form [type=phone]:hover,
@@ -1128,8 +1128,8 @@ input::-webkit-inner-spin-button {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: solid 0.3px #CCCCCC;
-  -webkit-box-shadow: 1px 1px 2px rgb(144, 144, 144);
-          box-shadow: 1px 1px 2px rgb(144, 144, 144);
+  -webkit-box-shadow: 1px 1px 1px rgb(144, 144, 144);
+          box-shadow: 1px 1px 1px rgb(144, 144, 144);
 }
 
 .want__form-item-button {

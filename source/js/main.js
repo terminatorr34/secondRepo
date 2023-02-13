@@ -1,6 +1,4 @@
 
-
-
 // слайдер для десктопной версии, для стрелочек, под основным банером
 const images = document.querySelectorAll('.slider .slider-line img');
 const sliderline = document.querySelector('.slider-line');
