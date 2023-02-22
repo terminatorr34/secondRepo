@@ -1,30 +1,24 @@
 @font-face {
-
     src: url(../font/UniSans-Trial-Bold.otf);
     src: url(../font/UniSans-Trial-Regulas.otf);
     src: url(../font/UniSans-Trial-SemiBold.otf);
     src: url(../font/UniSans-Trial-Light.otf);
     font-family: 'UniSans-Trial';
-
 }
 
-@import "null.scss";
-@import "slider.scss";
+
 
 .container {
     max-width: 1920px;
-
     overflow: hidden;
     flex: 1 1 auto;
     margin: 0 auto;
     background-color: #ffffff;
-
 }
 
 @media(max-width:1600px) {
     .container {
-        max-width: 1600px;
-        
+     max-width: 1600px;
     }
 }
 @media(max-width:479px) {
@@ -32,39 +26,18 @@
         max-width: 479px;
         
     }
-}
-
-.container {
-
-    &__body {
-        max-width: 1544px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        padding: 0 5px 0 5px;
-        margin: 0 auto;
-        background-color: #ffffff;
-    }
-
-}
-
-@media(max-width:479px){
-
-    .container {
-
-        &__body {
-            max-width: 100%;
-            display: flex;
-        align-items: center;
-        flex-direction: column;
-         
-        }
-    
-    }
-
-    body.lock{
-        overflow:hidden;
-    }
+    // body {
+    //     max-width: 1544px;
+    //     display: flex;
+    //     align-items: center;
+    //     flex-direction: column;
+    //     padding: 0 5px 0 5px;
+    //     margin: 0 auto;
+    //     background-color: #ffffff;
+    // }
+    // body.lock{
+    //     overflow:hidden;
+    // }
 }
 
 .title {
@@ -89,15 +62,14 @@
     color: rgba(86, 86, 85, 1);
 }
 
-
 .wrapper{
     max-width:100%;
     position: relative;
-    padding-top:130px;
-    // top:130px;
-    
+    padding-top:130px;    
 }
 
+@import "null.scss";
 @import "header.scss";
+@import "slider.scss";
 @import "main.scss";
 @import "footer.scss";

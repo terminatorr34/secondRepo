@@ -21,7 +21,6 @@
         display: flex;
         flex: 1 1 auto;
         justify-content: space-between;
-        // border: solid 1px cornflowerblue;
         align-items: center;
         background-color: white;
         position: fixed;
@@ -85,6 +84,7 @@
     }
 
     &__contacts-mail {
+        font-family: 'Roboto';
         margin: 0 51px 0 0;
         font-size: 18px;
         font-weight: 400;
@@ -192,8 +192,6 @@
     .header__container {
         padding: 12px 17px 9px 17px;
     }
-
-    .header__contacts {}
 
     .header__menu, .header__menu1 {
         margin: 0 0 0 21px;

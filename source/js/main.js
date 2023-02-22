@@ -6,7 +6,7 @@ const sliderline = document.querySelector('.slider-line');
 let count = 0;
 let width;
 let count1 = images.length;
-
+init();
 function init() {
     width = document.querySelector('.slider').offsetWidth; //метод offsetWidth возвращает ширину в пикселях
     sliderline.style.width = width * images.length + 'px'; // делаем ширину слайдера равной сумме ширин всех картинок, умножаем ширину ограничивающего слайдера на количество кортинок (это соотвествует свойтсву length коллекции images)
@@ -152,9 +152,13 @@ const res32 = await fetch(url, {
     body: data,
     withCredentials: true,    
     crossorigin: true,    
-    mode: 'no-cors'
+    mode: 'no-cors',
+    headers: {
+        'Content-Type': 'application/json'
+      }
 })
-return await res32 // await говорит JS О том, что не надо ждать завершения операции return, а сразу выполнить res32, а после этого выполнить return 
+
+return res32 // await говорит JS О том, что не надо ждать завершения операции return, а сразу выполнить res32, а после этого выполнить return 
 }
 const misha = {
     name: "mishka",
@@ -166,12 +170,14 @@ mainForm.addEventListener('submit', function (event) {
     const dataMisha = JSON.stringify(misha)
      // чтобы не перезагружалась страница мы отменяем стандртное поведение браузера
     const formData = new FormData (mainForm)
-    formData.set('заказ', dataMisha) // вместе с данными с формы мы можем передавать произвольные данные при помощи метода Set
-
-    postData ('https://my-json-server.typicode.com/typicode/demo/posts', formData).catch((err)=>{
-        console.log(err)
-    })
     
+    formData.set('order', dataMisha) // вместе с данными с формы мы можем передавать произвольные данные при помощи метода Set
+    postData ('http://localhost:5501/',  formData).catch((err)=>{
+        console.log(err)
+        
+
+
+    })
     
     if (validation(this) == true) {   // здесь вместо this  можно было вставить document.forms.mainform
         alert('форма отправлена успешно')
