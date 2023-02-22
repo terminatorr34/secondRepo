@@ -483,7 +483,12 @@ h3.h3title {
 }
 
 .left-item4 {
-  border-right: 3px solid rgb(222, 222, 223);
+  border-right: 0;
+}
+
+.left-item5 {
+  border-right: 0;
+  border-bottom: 0;
 }
 
 .body-item-right {

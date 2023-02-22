@@ -338,8 +338,6 @@
     margin-left: 200px;
     display: flex;
     flex-direction: column;
-
-
 }
 
 .service-body-item {
@@ -400,8 +398,6 @@ h3.h3title {
     width: 33%;
     border: solid rgba(222, 222, 223, 1);
     border-right-width: 0;
-    // flex: 1 1 33%;
-    // min-height: 50%;
     transition: all 0.5s ease-in-out;
 
 }
@@ -461,12 +457,17 @@ h3.h3title {
 .body-left-table-item:nth-child(6) {
 
     border-top-width: 0;
+
 }
 
 .left-item4 {
-    border-right: 3px solid rgba(222, 222, 223, 1);
-    // background-color: red;
+    border-right: 0;
 }
+.left-item5 {
+    border-right: 0;
+    border-bottom: 0;
+}
+
 
 .body-item-right {
     display: flex;

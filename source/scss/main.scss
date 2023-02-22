@@ -962,6 +962,38 @@
     background: url(..//img/background/4.png) 0 0/ cover no-repeat;
 }
 
+@media (min-width:1024px){ 
+    .nav-items:nth-child(1):hover {
+        transition: all 0.3s ease-in-out;
+        opacity: 70%;
+        background: url(..//img/background/11.png) 0 0/ cover no-repeat;
+    }
+    
+    .nav-items:nth-child(2):hover {
+        transition: all 0.3s ease-in-out;
+        opacity: 70%;
+        background: url(..//img/background/1.png) 0 0/ cover no-repeat;
+    }
+    
+    .nav-items:nth-child(3):hover {
+        transition: all 0.3s ease-in-out;
+        opacity: 70%;
+        background: url(..//img/background/5.png) 0 0/ cover no-repeat;
+    }
+    
+    .nav-items:nth-child(4):hover {
+        transition: all 0.3s ease-in-out;
+        opacity: 70%;
+        background: url(..//img/background/7.png) 0 0/ cover no-repeat;
+    }
+    
+    .nav-items:nth-child(5):hover {
+        transition: all 0.3s ease-in-out;
+        opacity: 70%;
+        background: url(..//img/background/4.png) 0 0/ cover no-repeat;
+    }
+    
+}
 @media(max-width:1280px) {
     .nav-items {
         a {

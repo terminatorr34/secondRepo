@@ -24,11 +24,11 @@
                 <div class="header__burger1">
                     <span></span>
                 </div>
-                <div class="header__menu1">
-                    <a href="#" class="header__menu-item">проекты</a>
-                    <a href="#" class="header__menu-item">услуги</a>
-                    <a href="#" class="header__menu-item">о студии</a>
-                    <a href="#" class="header__menu-item">связь</a>
+                <div class="header__menu">
+                    <a href="service.html" class="header__menu-item">проекты</a>
+                    <a href="service.html" class="header__menu-item" style="text-decoration: underline;">услуги</a>
+                    <a href="service.html" class="header__menu-item">о студии</a>
+                    <a href="service.html" class="header__menu-item">связь</a>
                 </div>
 
             </div>
@@ -419,12 +419,19 @@
                                     <li>Видео</li>
                                 </ul>
                             </div>
+                            <div class="body-left-table-item left-item5">
+                                <div class="letf-table-plus"></div>
+                                <ul>
+                                    
+                                </ul>
+                            </div>
+                            
                         </div>
 
                     </div>
                     <div class="body-item-right">
-                        <div class="picAside"><img src="/img/service_body/4.png" alt=""></div>
-                        <div class="picPlay"><a href=""><img src="/img/service_body/play.png" alt=""></a></div>
+                        <div class="pic-aside"><img src="/img/service_body/4.png" alt=""></div>
+                        <div class="pic-play"><a href=""><img src="/img/service_body/play.png" alt=""></a></div>
                     </div>
                     <div class="body-item-right-mobile">
                         <img src='img/service_body/2_mobile.png' alt="">
